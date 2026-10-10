@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-10T07:59:25.730315+00:00",
+  "title": "Design System: Relaxed Rabbit",
+  "extensions": {
+    "colorMeta": {
+      "cream": {
+        "role": "neutral",
+        "displayName": "Oat cream",
+        "tonalRamp": [
+          "oklch(15.00% 0.0247 91.62)",
+          "oklch(26.43% 0.0247 91.62)",
+          "oklch(37.86% 0.0247 91.62)",
+          "oklch(49.29% 0.0247 91.62)",
+          "oklch(60.71% 0.0247 91.62)",
+          "oklch(72.14% 0.0247 91.62)",
+          "oklch(83.57% 0.0247 91.62)",
+          "oklch(95.00% 0.0247 91.62)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Forest ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0485 153.09)",
+          "oklch(26.43% 0.0485 153.09)",
+          "oklch(37.86% 0.0485 153.09)",
+          "oklch(49.29% 0.0485 153.09)",
+          "oklch(60.71% 0.0485 153.09)",
+          "oklch(72.14% 0.0485 153.09)",
+          "oklch(83.57% 0.0485 153.09)",
+          "oklch(95.00% 0.0485 153.09)"
+        ]
+      },
+      "moss": {
+        "role": "neutral",
+        "displayName": "Moss",
+        "tonalRamp": [
+          "oklch(15.00% 0.0564 133.53)",
+          "oklch(26.43% 0.0564 133.53)",
+          "oklch(37.86% 0.0564 133.53)",
+          "oklch(49.29% 0.0564 133.53)",
+          "oklch(60.71% 0.0564 133.53)",
+          "oklch(72.14% 0.0564 133.53)",
+          "oklch(83.57% 0.0564 133.53)",
+          "oklch(95.00% 0.0564 133.53)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "tonalRamp": [
+          "oklch(15.00% 0.0712 120.20)",
+          "oklch(26.43% 0.0712 120.20)",
+          "oklch(37.86% 0.0712 120.20)",
+          "oklch(49.29% 0.0712 120.20)",
+          "oklch(60.71% 0.0712 120.20)",
+          "oklch(72.14% 0.0712 120.20)",
+          "oklch(83.57% 0.0712 120.20)",
+          "oklch(95.00% 0.0712 120.20)"
+        ]
+      },
+      "sun": {
+        "role": "secondary",
+        "displayName": "Sunshine",
+        "tonalRamp": [
+          "oklch(15.00% 0.1118 93.99)",
+          "oklch(26.43% 0.1118 93.99)",
+          "oklch(37.86% 0.1118 93.99)",
+          "oklch(49.29% 0.1118 93.99)",
+          "oklch(60.71% 0.1118 93.99)",
+          "oklch(72.14% 0.1118 93.99)",
+          "oklch(83.57% 0.1118 93.99)",
+          "oklch(95.00% 0.1118 93.99)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Meadow rule",
+        "tonalRamp": [
+          "oklch(15.00% 0.0431 127.86)",
+          "oklch(26.43% 0.0431 127.86)",
+          "oklch(37.86% 0.0431 127.86)",
+          "oklch(49.29% 0.0431 127.86)",
+          "oklch(60.71% 0.0431 127.86)",
+          "oklch(72.14% 0.0431 127.86)",
+          "oklch(83.57% 0.0431 127.86)",
+          "oklch(95.00% 0.0431 127.86)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Organic hero display",
+        "purpose": "First hero headline line; responsive changes documented in DESIGN.md."
+      },
+      "statement": {
+        "displayName": "Editorial statement",
+        "purpose": "Large forest-section belief statement."
+      },
+      "body": {
+        "displayName": "Human serif body",
+        "purpose": "Reading copy and compact navigation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "breathing-sun",
+        "value": "0 25px 55px #4656301a",
+        "purpose": "Only ambient surface shadow in the build."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "0.25s",
+        "purpose": "Pill/circle color and text-link arrow transitions."
+      },
+      {
+        "name": "disclosure-transition",
+        "value": "0.3s",
+        "purpose": "Plus/minus rotation."
+      },
+      {
+        "name": "scroll-ease",
+        "value": "none",
+        "purpose": "GSAP scroll-linked scenes; generally scrub 1, clip scrub true."
+      },
+      {
+        "name": "breathing-ease",
+        "value": "sine.inOut",
+        "purpose": "Four seconds in, six seconds out; disabled scaling under paused or reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "480px"
+      },
+      {
+        "name": "stacked",
+        "value": "800px"
+      },
+      {
+        "name": "wide-cap",
+        "value": "1800px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Explore outline pill",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Native anchor into the studio section.",
+      "html": "<a class=\"ds-pill\" href=\"#spirit\">Explore <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v17m-7-7 7 7 7-7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-pill{font-family:var(--body,\"Linden Hill\",Georgia,serif);font-size:20px;cursor:pointer;display:inline-flex;align-items:center;gap:16px;padding:9px 27px;border:1px solid var(--ink,#1c3825);border-radius:999px;color:var(--ink,#1c3825);text-decoration:none;transition:background .25s,color .25s}.ds-pill:hover{background:var(--ink,#1c3825);color:var(--cream,#f4eedc)}.ds-pill:focus-visible{outline:3px solid var(--moss,#526645);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
+    },
+    {
+      "name": "Breathing button",
+      "kind": "button",
+      "refersTo": "button-breath",
+      "description": "Starts or stops a single guided pause; runtime behavior lives in main.ts.",
+      "html": "<button class=\"ds-breath\" type=\"button\">Take a breath <span></span></button>",
+      "css": ".ds-breath{font-family:var(--body,\"Linden Hill\",Georgia,serif);font-size:20px;cursor:pointer;display:inline-flex;align-items:center;justify-content:space-between;gap:16px;min-width:190px;padding:14px 24px;border:0;border-radius:999px;background:var(--ink,#1c3825);color:var(--cream,#f4eedc);transition:background .25s}.ds-breath span{width:9px;height:9px;border-radius:50%;background:var(--sun,#edd47c)}.ds-breath:hover{background:#345236}.ds-breath:focus-visible{outline:3px solid var(--moss,#526645);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
+    },
+    {
+      "name": "Scroll discovery link",
+      "kind": "nav",
+      "refersTo": "circle-arrow",
+      "description": "Outlined circle plus descriptive navigation text; mobile-sized preview.",
+      "html": "<a class=\"ds-scroll\" href=\"#spirit\"><span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v17m-7-7 7 7 7-7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>A little scroll. A little discovery.</a>",
+      "css": ".ds-scroll{font-family:var(--body,\"Linden Hill\",Georgia,serif);font-size:20px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;font-size:15px;color:var(--ink,#1c3825);text-decoration:none}.ds-scroll span{display:grid;place-items:center;width:44px;height:44px;border:1px solid currentColor;border-radius:50%;transition:background .25s,color .25s}.ds-scroll:hover span{background:var(--ink,#1c3825);color:var(--cream,#f4eedc)}.ds-scroll:focus-visible{outline:3px solid var(--moss,#526645);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
+    },
+    {
+      "name": "Principle disclosure",
+      "kind": "custom",
+      "description": "Native independent details; first principle starts open.",
+      "html": "<details class=\"ds-principle\" open><summary>Useful by nature.<span></span></summary><p>Start with something worth making. Solve a real problem, keep the purpose clear, and give every feature a reason to be there.</p></details>",
+      "css": ".ds-principle{border-top:1px solid var(--line,#879478);border-bottom:1px solid var(--line,#879478);padding:28px 0;color:var(--ink,#1c3825)}.ds-principle summary{display:flex;align-items:center;justify-content:space-between;gap:30px;cursor:pointer;list-style:none;font-family:var(--display,\"Fraunces Variable\",Georgia,serif);font-size:27px;letter-spacing:-.025em;line-height:1.3}.ds-principle summary::-webkit-details-marker{display:none}.ds-principle summary:focus-visible{outline:3px solid var(--moss,#526645);outline-offset:8px}.ds-principle summary span{position:relative;width:32px;height:32px;flex:none}.ds-principle summary span:before,.ds-principle summary span:after{content:\"\";position:absolute;width:24px;height:1px;left:4px;top:15px;background:var(--ink,#1c3825);transition:transform .3s}.ds-principle summary span:after{transform:rotate(90deg)}.ds-principle[open] summary span:after{transform:rotate(0)}.ds-principle p{font-family:var(--body,\"Linden Hill\",Georgia,serif);font-size:22px;line-height:1.6;max-width:620px;margin:24px 0 5px;color:#405137}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
+    },
+    {
+      "name": "Motion preference button",
+      "kind": "button",
+      "description": "Underlined footer control; saved preference and OS setting handled by main.ts.",
+      "html": "<button class=\"ds-motion\" type=\"button\" aria-pressed=\"false\">Pause animations</button>",
+      "css": ".ds-motion{font-family:var(--body,\"Linden Hill\",Georgia,serif);font-size:20px;cursor:pointer;font-size:15px;background:none;border:0;padding:8px 0;color:var(--ink,#1c3825);text-decoration:underline;text-underline-offset:5px}.ds-motion:hover{color:var(--moss,#526645)}.ds-motion:focus-visible{outline:3px solid var(--moss,#526645);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The sunlit meadow",
+    "overview": "A cream sculptural rabbit, mossy miniature landscape and generous organic serif lettering make the studio feel caring, unhurried and quietly playful. Large uninterrupted color fields carry the editorial passages; fine rules and round controls keep the interface light.\n\nThis is the independent Relaxed Rabbit website identity. It does not inherit the Lulu theme of My Arabic Vocab. The approved first-surface composition is recorded in `.impeccable/surfaces/index-html.md` and `.impeccable/mocks/meadow-original.png`; the implemented source is `index.html`, `src/style.css` and `src/main.ts`. Later CSS declarations win. Desktop and mobile review captures are `.impeccable/review/desktop.png` and `.impeccable/review/mobile.png`; the additional in-app capture is `.impeccable/review/user-675.png`.",
+    "keyCharacteristics": [
+      "Sunlit oat ground, forest ink and restrained sage and yellow accents.",
+      "Soft, weighty display serif paired with human, readable serif copy.",
+      "Panoramic illustration, broad editorial sections and native disclosures.",
+      "Scroll-linked movement with a fully readable still state."
+    ],
+    "rules": [
+      {
+        "name": "The Field Rule",
+        "body": "Carry section identity through uninterrupted color fields and typography, as in the cream, forest and sage passages.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the warm meadow, organic serif and broad color-field identity.",
+      "**Do** follow the final CSS cascade and review both 800px and 480px responsive transitions.",
+      "**Do** preserve semantic navigation, disclosures, visible focus and the reduced-motion still state.",
+      "**Do** use truthful English studio copy and retain artwork provenance when replacing assets."
+    ],
+    "donts": [
+      "**Don't** import the Lulu app theme into this independent website.",
+      "**Don't** imply the generated meadow has independently animated rabbit body parts.",
+      "**Don't** invent projects, clients, metrics, testimonials or a public contact email.",
+      "**Don't** turn existing ornamental captions into a reusable eyebrow system."
+    ]
+  }
+}

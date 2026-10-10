@@ -1,0 +1,63 @@
+{
+  "title": "A Rabbit’s Day Off — final composition",
+  "question": "Theme নির্বাচিত। এবার এই একই theme-এর final layout: A সুপারিশ করছি—headline, rabbit ও scroll animation-এর জন্য সবচেয়ে ভারসাম্যপূর্ণ।",
+  "options": [
+    {
+      "id": "meadow-original",
+      "label": "A — Original meadow (Recommended)",
+      "thesis": "বড় centered headline, নিচে reclining rabbit ও meadow।",
+      "palette": [
+        "#f4f0d9",
+        "#244b34",
+        "#b7ca8c",
+        "#e6a358"
+      ],
+      "materials": [
+        "tactile rabbit",
+        "sunlit meadow"
+      ],
+      "viewport": "বড় centered headline, নিচে reclining rabbit ও meadow।",
+      "risk": "শব্দ ও illustration-এর ভারসাম্য সবচেয়ে ভালো।",
+      "comp": ".impeccable/mocks/meadow-original.png"
+    },
+    {
+      "id": "meadow-editorial",
+      "label": "B — Editorial meadow",
+      "thesis": "বামে headline, ডানে rabbit ও ঢালু meadow।",
+      "palette": [
+        "#f4f0d9",
+        "#244b34",
+        "#b7ca8c",
+        "#e6a358"
+      ],
+      "materials": [
+        "tactile rabbit",
+        "sunlit meadow"
+      ],
+      "viewport": "বামে headline, ডানে rabbit ও ঢালু meadow।",
+      "risk": "একটু বেশি editorial; scene কম জায়গা পায়।",
+      "comp": ".impeccable/mocks/meadow-editorial.png"
+    },
+    {
+      "id": "meadow-immersive",
+      "label": "C — Immersive meadow",
+      "thesis": "বিশাল rabbit ও screen-ভরা meadow; cinematic composition।",
+      "palette": [
+        "#f4f0d9",
+        "#244b34",
+        "#b7ca8c",
+        "#e6a358"
+      ],
+      "materials": [
+        "tactile rabbit",
+        "sunlit meadow"
+      ],
+      "viewport": "বিশাল rabbit ও screen-ভরা meadow; cinematic composition।",
+      "risk": "Scene বেশি prominent; mobile-এ composition বেশি বদলাতে হবে।",
+      "comp": ".impeccable/mocks/meadow-immersive.png"
+    }
+  ],
+  "canon": false,
+  "reroll": false,
+  "steer": true
+}

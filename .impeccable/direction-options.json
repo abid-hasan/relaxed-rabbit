@@ -1,0 +1,186 @@
+{
+  "title": "Relaxed Rabbit — visual direction",
+  "question": "কোন জগৎটি আপনার website হবে? Mockup তৈরি হচ্ছে; ছবিগুলো এলে দেখুন। Meadow সুপারিশ করছি—cute character ও software studio পরিচয় দুটোই পরিষ্কার থাকবে।",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Balanced Little World",
+      "kicker": "SCROLL-DRIVEN SCULPTURE",
+      "lineage": "Hanging kinetic mobiles",
+      "thesis": "একটি rabbit-এর ছোট্ট ভাসমান জগৎ স্ক্রলের সঙ্গে ভারসাম্য বদলাবে।",
+      "palette": [
+        "#f5edcf",
+        "#183c32",
+        "#9dac83",
+        "#496bda"
+      ],
+      "materials": [
+        "sculpted paper",
+        "soft ceramic"
+      ],
+      "viewport": "Oversized editorial type surrounds a rabbit resting in a suspended sculptural world.",
+      "risk": "শিল্পময় composition; animation-এ অতিরিক্ত বস্তু যোগ করলে মূল কথা হারাতে পারে।",
+      "raised": [
+        {
+          "from": "Theatre lighting",
+          "raise": "Scene-wide transitions follow one coordinated timeline."
+        },
+        {
+          "from": "Painted posters",
+          "raise": "One oversized rabbit anchors the entire opening."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/balanced.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "A Rabbit’s Day Off",
+      "kicker": "RECOMMENDED",
+      "lineage": "Illustrated meadow and editorial posters",
+      "thesis": "একটি শান্ত rabbit-এর রোদেলা meadow; স্ক্রল করলে ঘাস, ফুল ও typography আলাদা স্তরে সরে যাবে।",
+      "palette": [
+        "#f4f0d9",
+        "#244b34",
+        "#b7ca8c",
+        "#e6a358"
+      ],
+      "materials": [
+        "soft sculptural illustration",
+        "warm editorial canvas"
+      ],
+      "viewport": "Huge forest-green typography above a sculptural rabbit lounging in a sunlit meadow.",
+      "risk": "চরিত্রটি শক্তিশালী; mascot website হিসেবে তুলনামূলক পরিচিত composition।",
+      "comp": ".impeccable/mocks/decision/meadow.png"
+    },
+    {
+      "id": "boxes",
+      "label": "Sneaker archive",
+      "verdict": "declined",
+      "thesis": "Sneaker archive interpreted for Relaxed Rabbit.",
+      "palette": [
+        "#c26b32",
+        "#f5efd9"
+      ],
+      "materials": [
+        "Sneaker archive"
+      ],
+      "viewport": "A rabbit-led studio introduction.",
+      "risk": "Brand clarity is weaker than the main concepts.",
+      "case": "Archive browsing needs a real product catalogue.",
+      "kept": "Material consistency"
+    },
+    {
+      "id": "dawn",
+      "label": "Theatre dawn",
+      "verdict": "declined",
+      "thesis": "Theatre dawn interpreted for Relaxed Rabbit.",
+      "palette": [
+        "#26318d",
+        "#f5efd9"
+      ],
+      "materials": [
+        "Theatre dawn"
+      ],
+      "viewport": "A rabbit-led studio introduction.",
+      "risk": "Brand clarity is weaker than the main concepts.",
+      "case": "Lighting controls obscure a simple studio introduction.",
+      "kept": "Coordinated scene transitions"
+    },
+    {
+      "id": "clock",
+      "label": "Segment clock",
+      "verdict": "declined",
+      "thesis": "Segment clock interpreted for Relaxed Rabbit.",
+      "palette": [
+        "#181a18",
+        "#f5efd9"
+      ],
+      "materials": [
+        "Segment clock"
+      ],
+      "viewport": "A rabbit-led studio introduction.",
+      "risk": "Brand clarity is weaker than the main concepts.",
+      "case": "Numeric instrumentation does not communicate this studio.",
+      "kept": "Deliberate resting states"
+    },
+    {
+      "id": "blind",
+      "label": "Destination blind",
+      "verdict": "declined",
+      "thesis": "Destination blind interpreted for Relaxed Rabbit.",
+      "palette": [
+        "#194334",
+        "#f5efd9"
+      ],
+      "materials": [
+        "Destination blind"
+      ],
+      "viewport": "A rabbit-led studio introduction.",
+      "risk": "Brand clarity is weaker than the main concepts.",
+      "case": "Monitoring vocabulary has no factual content here.",
+      "kept": "Strong typographic hierarchy"
+    },
+    {
+      "id": "poster",
+      "label": "Film poster",
+      "verdict": "declined",
+      "thesis": "Film poster interpreted for Relaxed Rabbit.",
+      "palette": [
+        "#ca343b",
+        "#f5efd9"
+      ],
+      "materials": [
+        "Film poster"
+      ],
+      "viewport": "A rabbit-led studio introduction.",
+      "risk": "Brand clarity is weaker than the main concepts.",
+      "case": "Cast and billing imply absent project content.",
+      "kept": "One oversized focal subject"
+    },
+    {
+      "id": "broadcast",
+      "label": "Broadcast signal",
+      "verdict": "declined",
+      "thesis": "Broadcast signal interpreted for Relaxed Rabbit.",
+      "palette": [
+        "#24232a",
+        "#f5efd9"
+      ],
+      "materials": [
+        "Broadcast signal"
+      ],
+      "viewport": "A rabbit-led studio introduction.",
+      "risk": "Brand clarity is weaker than the main concepts.",
+      "case": "Alarm imagery contradicts a positive relaxed character.",
+      "kept": "One animation timeline"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Quiet Studio",
+    "thesis": "পরিচ্ছন্ন software studio website, ছোট rabbit illustration ও সংযত animation।",
+    "palette": [
+      "#f5f1e7",
+      "#263d30",
+      "#aac4a0"
+    ],
+    "materials": [
+      "editorial grid",
+      "soft illustration"
+    ],
+    "viewport": "A spacious headline paired with a rabbit illustration and clear navigation.",
+    "risk": "পরিষ্কার ও ব্যবহারযোগ্য, তবে আপনার চাওয়া wow তুলনামূলক কম।",
+    "comp": ".impeccable/mocks/decision/studio.png"
+  },
+  "steer": true
+}

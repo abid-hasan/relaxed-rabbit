@@ -37,11 +37,15 @@ No remote repository or DNS records have been created by this project setup. Not
 ## Content and accessibility
 
 - English copy; no public email, placeholder projects, client claims, analytics or contact form.
-- Native anchor navigation, native details panels, keyboard-visible focus and a skip link.
-- System reduced-motion support plus a local pause-animation preference. A blocked storage API does not prevent use.
-- The breathing moment is optional and stoppable. It resets offscreen or when the tab becomes hidden.
+- Native anchor navigation, animated native details panels with botanical motifs, keyboard-visible focus and a skip link.
+- System reduced-motion support applies to scroll scenes, disclosures and the breathing illustration. No stored motion preference or manual motion toggle.
+- The afternoon rabbit offers one optional 10-second round: Start, four seconds in, six out, Stop and replay. A polite text status explains each phase. Native WebGL locally deforms the rabbit mesh while keeping its feet grounded; the whole image is not zoomed. It resets offscreen, when the tab becomes hidden or when the motion preference changes.
+- The rabbit texture has a magenta background, removed by the fragment shader to render transparently on the section. It is not a true-alpha WebP. Reduced motion keeps the rabbit still with timed text guidance; unavailable WebGL uses the rabbit silhouette and the text guide. No new dependency is required.
+- The day closes with a sleeping rabbit at sunset, a return-to-top link and a compact studio signoff.
 - Fonts and artwork are bundled locally. The website does not load runtime analytics or external font scripts.
 
 ## Editing
 
-Read `PRODUCT.md` and `DESIGN.md` before changing the website. Content lives in `index.html`, styling in `src/style.css`, and motion in `src/main.ts`.
+Read `PRODUCT.md` and `DESIGN.md` before changing the website. Content lives in `index.html`, styling in `src/style.css`, and scroll motion in `src/main.ts`. The breathing sequence lives in `src/breathing.ts` and its renderer in `src/rabbit-renderer.ts`.
+
+The afternoon scene ships only `assets/plates/rabbit-breath-key.webp`; its neighboring provenance JSON records generation and conversion. Older `breath.webp` variants remain as source references and are not included in the build. Failed true-alpha generation attempts are not shipped.

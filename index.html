@@ -70,7 +70,7 @@
           >
           <nav aria-label="Main navigation">
             <a href="#spirit">Our spirit</a
-            ><a class="pill" href="#spirit"
+            ><a class="pill" href="#approach"
               >Explore <svg aria-hidden="true"><use href="#arrow-down" /></svg
             ></a>
           </nav>
@@ -127,99 +127,68 @@
             feel right.
           </p>
         </div>
-        <div class="principles">
-          <details open>
-            <summary>
-              <span>Useful by nature.</span
-              ><span class="detail-icon" aria-hidden="true"></span>
-            </summary>
-            <p>
-              Start with something worth making. Solve a real problem, keep the
-              purpose clear, and give every feature a reason to be there.
-            </p>
-          </details>
-          <details>
-            <summary>
-              <span>Considered, not complicated.</span
-              ><span class="detail-icon" aria-hidden="true"></span>
-            </summary>
-            <p>
-              The words, the flow, the little things you barely notice. We care
-              about how it all fits together, so you can get on with your day.
-            </p>
-          </details>
-          <details>
-            <summary>
-              <span>A little more joy.</span
-              ><span class="detail-icon" aria-hidden="true"></span>
-            </summary>
-            <p>
-              Useful can be delightful, too. A friendly interaction, a
-              thoughtful touch, a moment that makes you smile. Small things
-              matter.
-            </p>
-          </details>
-        </div>
-      </section>
-      <section class="pause-section" id="pause" aria-labelledby="pause-title">
-        <div class="pause-copy">
-          <h2 id="pause-title">
-            Nothing to do.<br />Just a moment<br />for you.
-          </h2>
-          <p>
-            Even a busy day has room for a little pause.<br />Take one with our
-            rabbit.
-          </p>
-          <button
-            class="pill breath-button"
-            id="breath-button"
-            type="button"
-            aria-pressed="false"
-          >
-            Take a breath <span class="button-dot" aria-hidden="true"></span>
-          </button>
-          <p
-            class="breath-status"
-            id="breath-status"
-            role="status"
-            aria-live="polite"
-          >
-            A quiet little break, whenever you need it.
-          </p>
-        </div>
-        <div class="breath-world" aria-hidden="true">
-          <div class="breath-ring ring-a"></div>
-          <div class="breath-ring ring-b"></div>
-          <div class="breath-sun">
-            <svg><use href="#rabbit-mark" /></svg>
+        <div class="principle-layout">
+          <div class="principle-art" aria-hidden="true" data-active="0">
+            <div class="garden-disc"></div>
+            <svg class="garden-symbol" viewBox="0 0 240 240">
+              <g class="garden-motif motif-seed"><path d="M120 196V100"/><ellipse cx="90" cy="104" rx="23" ry="44" transform="rotate(-42 90 104)"/><ellipse cx="150" cy="78" rx="23" ry="44" transform="rotate(42 150 78)"/><path d="M82 198h76"/></g>
+              <g class="garden-motif motif-balance"><ellipse cx="120" cy="120" rx="44" ry="84"/><ellipse cx="120" cy="120" rx="44" ry="84" transform="rotate(60 120 120)"/><ellipse cx="120" cy="120" rx="44" ry="84" transform="rotate(120 120 120)"/></g>
+              <g class="garden-motif motif-flower"><ellipse cx="120" cy="73" rx="22" ry="37"/><ellipse cx="120" cy="167" rx="22" ry="37"/><ellipse cx="73" cy="120" rx="37" ry="22"/><ellipse cx="167" cy="120" rx="37" ry="22"/><circle cx="120" cy="120" r="24"/></g>
+            </svg>
+            <p class="garden-caption">Rooted in something useful.</p>
           </div>
-          <span class="orbit-note">A LITTLE ROOM TO BREATHE</span>
+          <div class="principles">
+            <details open>
+              <summary><span>Useful by nature.</span><span class="detail-icon" aria-hidden="true"></span></summary>
+              <div class="principle-content"><p>Start with something worth making. Solve a real problem, keep the purpose clear, and give every feature a reason to be there.</p></div>
+            </details>
+            <details>
+              <summary><span>Considered, not complicated.</span><span class="detail-icon" aria-hidden="true"></span></summary>
+              <div class="principle-content"><p>The words, the flow, the little things you barely notice. We care about how it all fits together, so you can get on with your day.</p></div>
+            </details>
+            <details>
+              <summary><span>A little more joy.</span><span class="detail-icon" aria-hidden="true"></span></summary>
+              <div class="principle-content"><p>Useful can be delightful, too. A friendly interaction, a thoughtful touch, a moment that makes you smile. Small things matter.</p></div>
+            </details>
+          </div>
         </div>
       </section>
-      <footer class="site-footer">
-        <div class="footer-top">
-          <p>Thoughtfully made.<br />At our own pace.</p>
-          <a class="scroll-link" href="#top"
-            ><span>Back to the meadow</span
-            ><span class="circle"
-              ><svg aria-hidden="true"><use href="#arrow-up" /></svg></span
-          ></a>
+      <section class="pause-section" id="pause" aria-labelledby="pause-title" data-breath="ready" data-renderer="loading">
+        <div class="pause-copy">
+          <h2 id="pause-title">One slow breath.<br /><em>Together.</em></h2>
+          <p>Take a little pause with our rabbit.</p>
+          <p id="breath-instruction">Breathe in as the rabbit rises. Breathe out as it settles. One round takes about 10 seconds.</p>
+          <div class="breath-actions">
+            <button class="pill breath-button" id="breath-start" type="button" disabled>Getting ready…</button>
+            <button class="pill breath-button" id="breath-stop" type="button" hidden>Stop breathing exercise</button>
+          </div>
+          <noscript><p>Take a slow breath in, then gently breathe out. The guided animation needs JavaScript.</p></noscript>
         </div>
-        <p class="footer-wordmark" aria-label="Relaxed Rabbit">
-          <span>relaxed</span> <span>rabbit</span
-          ><svg aria-hidden="true"><use href="#rabbit-mark" /></svg>
-        </p>
-        <div class="footer-bottom">
-          <span>© <span id="year">2026</span> Relaxed Rabbit</span
-          ><span>Good things take care.</span
-          ><button
-            id="motion-toggle"
-            class="motion-toggle"
-            type="button"
-            aria-pressed="false"
-          >
-            Pause animations
-          </button>
+        <div class="breath-world">
+          <div class="rabbit-stage">
+            <canvas id="breathing-rabbit" width="600" height="600" role="img" aria-label="Our rabbit holding a daisy, gently breathing with you"></canvas>
+            <svg class="rabbit-fallback" aria-hidden="true"><use href="#rabbit-mark" /></svg>
+          </div>
+          <div class="breath-guidance" role="status" aria-live="polite" aria-atomic="true">
+            <p id="breath-status">Ready when you are.</p>
+            <p id="breath-detail">A quiet moment is on its way.</p>
+          </div>
+          <div class="breath-meter" aria-hidden="true"><span></span></div>
+        </div>
+      </section>
+      <footer class="site-footer" aria-labelledby="farewell-title">
+        <div class="farewell-scene">
+          <img class="sunset-image" src="/assets/plates/sunset.webp" srcset="/assets/plates/sunset-small.webp 900w, /assets/plates/sunset.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async" alt="The rabbit curled up among daisies as the sun sets over the meadow" />
+          <div class="farewell-copy">
+            <h2 id="farewell-title">A little less rush.<br /><em>A little more room.</em></h2>
+            <p>Thoughtfully made software.<br />For life beyond the screen.</p>
+          </div>
+          <a class="farewell-return" href="#top"><span>Back to the meadow</span><span class="circle"><svg aria-hidden="true"><use href="#arrow-up" /></svg></span></a>
+        </div>
+        <div class="footer-signoff">
+          <a class="footer-brand" href="#top" aria-label="Relaxed Rabbit home"><svg aria-hidden="true"><use href="#rabbit-mark" /></svg><span>relaxed rabbit</span></a>
+          <p>Good things take care.</p>
+          <span class="copyright">© <span id="year">2026</span> Relaxed Rabbit</span>
         </div>
       </footer>
     </main>

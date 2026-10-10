@@ -1,0 +1,21 @@
+{
+  "prompt": "Square companion afternoon meadow illustration using the existing meadow as reference: the same cream rabbit holding a daisy and taking a quiet pause; artwork only.",
+  "promptType": "paraphrase; not the exact generation prompt",
+  "createdAt": "2026-10-10",
+  "generator": "Built-in imagegen",
+  "reference": "assets/plates/meadow.webp",
+  "sourceFile": "/Users/abidhasan/.codex/generated_images/01a0d462-c5dd-7b30-b388-054307875e0f/exec-71f9a0cf-3a48-4517-bfe1-6b306977df45.png",
+  "sourceDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "outputDimensions": {
+    "width": 950,
+    "height": 950
+  },
+  "conversion": {
+    "tool": "cwebp",
+    "quality": 82,
+    "format": "WebP"
+  }
+}

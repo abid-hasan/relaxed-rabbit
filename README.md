@@ -28,7 +28,7 @@ npm run preview
 4. Set the Pages custom domain to `relaxedrabbit.com`, then follow the DNS records shown by GitHub for your account. Verify domain ownership with GitHub's TXT record before connecting it. Configure the apex and `www` consistently, wait for DNS verification, and enable HTTPS.
 5. Confirm the public HTTPS site, favicon, images, anchors and mobile layout after deployment.
 
-The custom-domain file is already in `public/CNAME` for branch-based hosting compatibility; the supplied Actions deployment uses the domain configured in repository Settings → Pages. The default asset paths target the domain root. If publishing temporarily under `username.github.io/repository/`, configure Vite's `base` for that repository path first.
+The custom-domain file is already in `public/CNAME` for branch-based hosting compatibility; the supplied Actions deployment uses the domain configured in repository Settings → Pages. Vite uses a relative base (`./`), so the same build loads its assets under both `username.github.io/repository/` and the custom domain without configuration changes.
 
 Official setup references: [custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 

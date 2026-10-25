@@ -1,55 +1,55 @@
 # Relaxed Rabbit
 
-**Good things. At a gentler pace.** A cute, illustrated software-studio website: a rabbit's day from a sunny meadow to a quiet sunset.
+**Good things. At a gentler pace.** ছবিতে সাজানো একটি কিউট সফটওয়্যার স্টুডিওর ওয়েবসাইট। রোদেলা মাঠ থেকে শান্ত সূর্যাস্ত পর্যন্ত র‍্যাবিটের একটি দিন।
 
-Live: [relaxedrabbit.com](https://relaxedrabbit.com/) · Repository: [abid-hasan/relaxed-rabbit](https://github.com/abid-hasan/relaxed-rabbit)
+লাইভ: [relaxedrabbit.com](https://relaxedrabbit.com/) · রিপোজিটরি: [abid-hasan/relaxed-rabbit](https://github.com/abid-hasan/relaxed-rabbit)
 
-## Start here
+## এখান থেকে শুরু করুন
 
-| Need | Read |
+| দরকার | পড়ুন |
 | --- | --- |
-| Work on the project in a new session | [AGENTS.md](AGENTS.md), then [project context](docs/PROJECT-CONTEXT.md) |
-| Understand scope and owner preferences | [PRODUCT.md](PRODUCT.md) and [project context](docs/PROJECT-CONTEXT.md) |
-| Reuse logos, colors or typography | [Brand guidelines](docs/BRAND.md) and [brand kit](brand/README.md) |
-| Change layout or motion | [DESIGN.md](DESIGN.md) |
-| Build, verify or publish | [Maintenance guide](docs/MAINTENANCE.md) |
-| Understand imagery and licenses | [Asset provenance](docs/ASSETS.md) |
-| Start through Claude | [CLAUDE.md](CLAUDE.md), which links to the same working rules |
+| নতুন সেশনে কাজ শুরু | [AGENTS.md](AGENTS.md), তারপর [প্রজেক্টের তথ্য](docs/PROJECT-CONTEXT.md) |
+| কাজের সীমা ও মালিকের পছন্দ | [PRODUCT.md](PRODUCT.md) ও [প্রজেক্টের তথ্য](docs/PROJECT-CONTEXT.md) |
+| লোগো, রং বা ফন্ট ব্যবহার | [ব্র্যান্ড গাইড](docs/BRAND.md) ও [ব্র্যান্ড কিট](brand/README.md) |
+| লেআউট বা মোশন বদলানো | [DESIGN.md](DESIGN.md) |
+| বিল্ড, যাচাই বা পাবলিশ | [মেইনটেন্যান্স গাইড](docs/MAINTENANCE.md) |
+| ছবি ও লাইসেন্সের তথ্য | [অ্যাসেটের উৎস](docs/ASSETS.md) |
+| Claude দিয়ে শুরু | [CLAUDE.md](CLAUDE.md), একই কাজের নিয়মের লিংক আছে |
 
-## Run locally
+## লোকালে চালানো
 
-Node.js 22.12+ (or a compatible newer release).
+Node.js 22.12+ বা সাপোর্টেড নতুন ভার্সন লাগবে।
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Use the localhost URL printed by Vite. Production check:
+Vite যে localhost URL দেখাবে, সেটি খুলুন। প্রোডাকশন চেক:
 
 ```sh
 npm run build
 npm run preview
 ```
 
-No backend, environment secrets or paid service is needed. Stack: Vite, TypeScript, GSAP and a small native WebGL rabbit renderer. Fonts and images are bundled locally.
+ব্যাকএন্ড, environment secret বা পেইড সার্ভিস লাগে না। স্ট্যাক: Vite, TypeScript, GSAP ও ছোট native WebGL র‍্যাবিট renderer। ফন্ট ও ছবি লোকালেই আছে।
 
-## Experience
+## সাইটে যা আছে
 
-- Content-led mobile layout with close-up meadow art, readable type and touch-friendly controls; desktop retains its wide cinematic composition.
-- Studio values use animated native disclosures with botanical feedback.
-- An optional breathing pause runs one 10-second round: four seconds in, six out, with Start, Stop and replay. Chest/belly and upper-body motion are deliberately visible while feet remain grounded. Controls sit below the rabbit.
-- Reduced motion keeps the rabbit and meter still, retaining text guidance. WebGL/texture failure uses the silhouette and text. Leaving the section or hiding the page cancels the round.
-- Sunset scene and compact brand signoff; no manual animation toggle, public email, analytics or fabricated project listings.
+- মোবাইলে কনটেন্ট অনুযায়ী লেআউট, কাছ থেকে দেখা র‍্যাবিট, পড়ার মতো বড় লেখা ও ট্যাপের সুবিধা। ডেস্কটপে চওড়া সিনেমাটিক দৃশ্য।
+- স্টুডিওর ভাবনা দেখাতে অ্যানিমেটেড native disclosure ও গাছ-ফুলের ভিজ্যুয়াল।
+- চাইলে ১০ সেকেন্ডের ব্রিদিং রাউন্ড: ৪ সেকেন্ড শ্বাস নেওয়া, ৬ সেকেন্ড ছাড়া। Start, Stop ও replay আছে। পা স্থির রেখে বুক-পেট ও ওপরের শরীর স্পষ্ট নড়ে। কন্ট্রোল র‍্যাবিটের নিচে।
+- Reduced motion-এ র‍্যাবিট ও মিটার স্থির থাকে, সময় ধরে লেখা চলে। WebGL/টেক্সচার না চললে সিলুয়েট ও লেখা থাকে। সেকশন ছেড়ে গেলে বা পেজ আড়াল হলে রাউন্ড বন্ধ হয়।
+- শেষে সূর্যাস্ত ও ছোট ব্র্যান্ড পরিচয়। আলাদা animation toggle, পাবলিক ইমেইল, অ্যানালিটিক্স বা বানানো প্রজেক্ট লিস্ট নেই।
 
-## Brand files
+## ব্র্যান্ডের ফাইল
 
-The [`brand/`](brand/README.md) folder includes transparent SVG rabbit marks, outlined horizontal wordmarks, an icon and CSS/JSON/GPL/SVG palette exports. See [BRAND.md](docs/BRAND.md) for typography, contrast, usage and voice. `src/style.css` imports the shared palette CSS so the kit and site use the same colors.
+[`brand/`](brand/README.md)-এ ট্রান্সপারেন্ট SVG র‍্যাবিট, outlined ওয়ার্ডমার্ক, আইকন ও CSS/JSON/GPL/SVG প্যালেট আছে। ফন্ট, কনট্রাস্ট, ব্যবহার ও লেখার স্টাইলের জন্য [BRAND.md](docs/BRAND.md) পড়ুন। `src/style.css` একই প্যালেট CSS ইমপোর্ট করে, তাই কিট ও সাইটের রং মেলে।
 
-## Deployment
+## ডিপ্লয়
 
-GitHub Actions builds and deploys `main` to GitHub Pages. Only `dist/` is deployed. The custom domain is configured in repository Settings → Pages; `public/CNAME` also records it. Relative Vite base `./` supports the repository URL and custom domain. DNS/HTTPS settings are managed separately; routine source changes need no DNS edits.
+GitHub Actions `main` বিল্ড করে GitHub Pages-এ দেয়। শুধু `dist/` ডিপ্লয় হয়। কাস্টম ডোমেইন রিপোজিটরির Settings → Pages-এ সেট করা; `public/CNAME`-এও আছে। Vite base `./` রিপোজিটরি URL ও কাস্টম ডোমেইন সাপোর্ট করে। DNS/HTTPS আলাদা সেটিংস। সাধারণ কোড বদলালে DNS এডিট লাগে না।
 
-`public/` files are copied as-is. Do not put internal notes, source prompts or credentials there. The social preview is at `public/assets/relaxed-rabbit-preview.png`; canonical URL, robots and sitemap use the HTTPS apex. See the [maintenance guide](docs/MAINTENANCE.md) before publishing.
+`public/`-এর ফাইল সরাসরি কপি হয়। সেখানে ভেতরের নোট, সোর্স প্রম্পট বা লগইনের তথ্য রাখবেন না। সোশ্যাল প্রিভিউ `public/assets/relaxed-rabbit-preview.png`-এ আছে। canonical URL, robots ও sitemap মূল HTTPS ডোমেইন ব্যবহার করে। পাবলিশের আগে [মেইনটেন্যান্স গাইড](docs/MAINTENANCE.md) পড়ুন।
 
-Build and manually verify changes; do not create automated test files. Commit/push only with the owner's explicit instruction for the current task.
+বিল্ড করে নিজে যাচাই করুন; অটোমেটেড টেস্ট ফাইল নয়। এই কাজের জন্য মালিক স্পষ্ট করে বললেই কমিট/পুশ করুন।

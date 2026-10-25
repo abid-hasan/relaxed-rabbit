@@ -1,7 +1,7 @@
-# Relaxed Rabbit project instructions
+# Relaxed Rabbit প্রজেক্টের নির্দেশনা
 
-Read and follow [AGENTS.md](AGENTS.md) first. It is the single source for working rules across coding tools.
+আগে [AGENTS.md](AGENTS.md) পড়ুন ও মানুন। সব কোডিং টুলের কাজের নিয়ম ওই ফাইলেই থাকবে।
 
-Then read [PRODUCT.md](PRODUCT.md), [DESIGN.md](DESIGN.md), [project context](docs/PROJECT-CONTEXT.md), [brand guide](docs/BRAND.md) and [maintenance guide](docs/MAINTENANCE.md).
+তারপর [PRODUCT.md](PRODUCT.md), [DESIGN.md](DESIGN.md), [প্রজেক্টের তথ্য](docs/PROJECT-CONTEXT.md), [ব্র্যান্ড গাইড](docs/BRAND.md) ও [মেইনটেন্যান্স গাইড](docs/MAINTENANCE.md) পড়ুন।
 
-Preserve the approved cute rabbit identity. Use English on the site and Bangla with the owner. Do not commit or push without explicit authorization for the current task. Do not duplicate these rules here; update AGENTS.md so future sessions stay consistent.
+পছন্দ করা কিউট র‍্যাবিট থিম রাখুন। সাইটের লেখা English, মালিকের সঙ্গে কথা বাংলায় হবে। এই কাজের স্পষ্ট অনুমতি ছাড়া কমিট বা পুশ নয়। নিয়ম এখানে আবার না লিখে AGENTS.md আপডেট করুন, যেন পরের সেশনেও একই নিয়ম থাকে।

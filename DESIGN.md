@@ -1,6 +1,6 @@
 ---
 name: Relaxed Rabbit
-description: A sunlit meadow and organic serif identity for an independent software studio.
+description: একটি স্বাধীন সফটওয়্যার স্টুডিওর রোদেলা মাঠ ও নরম সেরিফ থিম।
 colors:
   cream: "#f4eedc"
   ink: "#1c3825"
@@ -64,74 +64,74 @@ components:
     height: "3.3vw"
 ---
 
-# Relaxed Rabbit design system
+# Relaxed Rabbit ডিজাইন সিস্টেম
 
-Updated 2026-10-26. Read [brand guidelines](docs/BRAND.md) for identity and reusable files, and [project context](docs/PROJECT-CONTEXT.md) for approved preferences. This is the website’s own theme, not the Lulu app theme.
+আপডেট: 2026-10-26। ব্র্যান্ড ও ফাইলের জন্য [ব্র্যান্ড গাইড](docs/BRAND.md), মালিকের পছন্দের জন্য [প্রজেক্টের তথ্য](docs/PROJECT-CONTEXT.md) পড়ুন। এটি ওয়েবসাইটের নিজস্ব থিম, Lulu অ্যাপের থিম নয়।
 
-## Direction
+## মূল ভাব
 
-**A Rabbit’s Day Off.** Warm cream, forest-green organic serif, a soft sculptural rabbit and miniature meadow. The owner likes the existing cuteness. Preserve that world and its narrative: morning → studio spirit → botanical principles → afternoon breathing → sunset farewell. Avoid generic grids of cards and corporate software templates.
+**A Rabbit’s Day Off.** উষ্ণ ক্রিম, গাঢ় সবুজ নরম সেরিফ, নরম ভাস্কর্যের মতো র‍্যাবিট ও ছোট মাঠ। মালিক বর্তমান কিউট ভাব পছন্দ করেন। এই জগৎ ও গল্প রাখুন: সকাল → স্টুডিওর ভাবনা → গাছ-ফুলে সাজানো নীতি → বিকেলের ব্রিদিং → সূর্যাস্তে বিদায়। সাধারণ কার্ডের গ্রিড বা করপোরেট টেমপ্লেট নয়।
 
-## Tokens and type
+## টোকেন ও ফন্ট
 
-`brand/palette.css` owns the `--rr-*` brand primitives. `src/style.css` aliases the primary colors for site components. Palette JSON/GPL/SVG exports live in `brand/`. Keep exports aligned when changing tokens.
+`brand/palette.css`-এ মূল `--rr-*` রং আছে। `src/style.css` সাইটের কম্পোনেন্টে সেগুলোর alias ব্যবহার করে। JSON/GPL/SVG প্যালেট `brand/`-এ। টোকেন বদলালে এক্সপোর্টও মেলান।
 
-Fraunces Variable supplies soft, heavy headings with optical size 144, softness 100 and wonk 1. Linden Hill supplies body and wordmark text. Fonts are self-hosted through Fontsource. Georgia/serif is the fallback. Desktop display type remains intentionally oversized to preserve the approved composition; do not apply that scale to mobile through whole-page scaling.
+Fraunces Variable দিয়ে নরম, মোটা হেডিং হয়: optical size 144, softness 100, wonk 1। বডি ও ওয়ার্ডমার্কে Linden Hill। Fontsource দিয়ে ফন্ট লোকালে রাখা। Fallback Georgia/serif। পছন্দ করা ডেস্কটপ দৃশ্যে ইচ্ছা করেই বড় হেডিং আছে। পুরো পেজ ছোট করে ওই স্কেল মোবাইলে আনবেন না।
 
-Use forest ink on cream or afternoon sage; cream and sunshine on forest. Focus outlines use moss on light fields and sunshine in the footer. Quiet line color is for dividers, not small text. Round buttons and circular arrow controls remain flat and simple.
+Cream বা afternoon sage-এ forest ink; forest-এ cream ও sunshine দিন। হালকা অংশে focus outline moss, ফুটারে sunshine। হালকা line রং বিভাজকের জন্য, ছোট লেখায় নয়। গোল বাটন ও বৃত্তাকার arrow কন্ট্রোল flat ও সহজ থাকবে।
 
-## Responsive composition
+## রেসপন্সিভ লেআউট
 
-### Desktop (above 800px)
+### ডেস্কটপ (800px-এর বেশি)
 
-Retain the wide cinematic hero (66.6667vw, capped at 1200px on wide screens): slim header, centered display heading, panorama and bottom scroll cue. The meadow begins at 32% and occupies 59% of the hero. The original desktop art treatment is intentionally preserved.
+চওড়া সিনেমাটিক hero রাখুন: 66.6667vw, বড় স্ক্রিনে সর্বোচ্চ 1200px। সরু হেডার, মাঝে বড় হেডিং, মাঠের প্যানোরামা ও নিচে স্ক্রল ইঙ্গিত থাকবে। মাঠ শুরু হয় hero-র 32%-এ, জায়গা নেয় 59%। আগের ডেস্কটপ ছবির সাজ ইচ্ছা করেই রাখা।
 
-Forest statement uses broad color fields, oversized text and outlined orbital decoration. Approach uses a sticky botanical visual alongside disclosures. Breathing uses two columns: introduction left, rabbit/status/control group right. The sunset image carries farewell text and returns to a compact forest signoff.
+Forest অংশে চওড়া রঙের জায়গা, বড় লেখা ও outline করা কক্ষপথের সাজ। Approach-এ disclosure-এর পাশে sticky গাছ-ফুলের ভিজ্যুয়াল। ব্রিদিংয়ে দুই কলাম: বামে পরিচয়, ডানে র‍্যাবিট/status/control। সূর্যাস্তের ছবিতে বিদায়ের লেখা, তারপর ছোট forest রঙের ব্র্যান্ড পরিচয়।
 
-Between 801 and 1100px, brand text and controls have explicit readable sizes rather than tiny viewport units; the botanical columns tighten and long links may wrap.
+801–1100px-এ ছোট viewport unit-এর বদলে পড়ার মতো নির্দিষ্ট ব্র্যান্ড ও কন্ট্রোল সাইজ থাকবে। গাছ-ফুলের কলাম একটু ছোট হবে; লম্বা লিংক নতুন লাইনে যেতে পারবে।
 
-### Phone and portrait tablet (800px and below)
+### ফোন ও portrait ট্যাবলেট (800px বা কম)
 
-The hero is a real CSS grid in document flow: header → heading and subtitle → meadow → scroll cue → seam. Its total height is content-driven. Never bring back the fixed 780/850/970px hero or absolute text percentages: these caused awkward gaps and collisions when text wrapped.
+Hero হবে document flow-তে CSS grid: হেডার → হেডিং ও সাবটাইটেল → মাঠ → স্ক্রল ইঙ্গিত → পরের অংশের সংযোগ। কনটেন্ট অনুযায়ী মোট উচ্চতা হবে। আগের fixed 780/850/970px hero বা absolute text percentage ফেরাবেন না। লেখা ভাঙলে এগুলোতে ফাঁক ও চাপাচাপি হতো।
 
-- Side gutters: `clamp(20px, 5.5vw, 40px)`.
-- Hero display: approximately 48–88px; second phrase wraps at 10ch. Subtitle: 21px with a bounded measure.
-- Meadow row: `clamp(280px, 42svh, 400px)`, natural proportions with `object-fit: cover` and 32% horizontal focus. The rabbit is close and expressive; cropping the wider meadow is intentional.
-- Header retains the wordmark and Explore. The secondary Our spirit link is omitted here; the scroll link still reaches that section. Buttons/links have at least 44px targets.
-- Mobile hero motion is only a restrained meadow drift (3% translation, 1.035 scale). No sideways heading motion or subtitle fade on phones.
-- Forest and approach sections use around 64px vertical padding, 20–21px body copy and fluid headings. Text should feel readable, not like a screenshot scaled down.
-- Botanical art becomes an 80px symbol with caption above the native disclosure list. Summaries have circular state controls and large touch areas.
-- Breathing stacks its introduction, rabbit, status, meter and controls. Center the introduction and keep instructions within 32ch. Rabbit stage caps at 340px; the section has 56px vertical padding. Do not separate the Start/Stop button from the character by a large text block.
-- Sunset remains a real visual ending, at least 660px tall with right-biased artwork and content that can grow. Return link is in flow, and the signoff wraps.
-- Below 360px, compact the header and omit only the decorative Explore arrow. In phone landscape, hero text is 58px and the meadow row is 330px.
+- পাশের ফাঁকা জায়গা: `clamp(20px, 5.5vw, 40px)`।
+- Hero হেডিং প্রায় 48–88px। দ্বিতীয় বাক্যাংশ 10ch-এ ভাঙে। সাবটাইটেল 21px, লাইনের চওড়া সীমিত।
+- মাঠের row: `clamp(280px, 42svh, 400px)`। অনুপাত রেখে `object-fit: cover`, horizontal focus 32%। র‍্যাবিট কাছ থেকে স্পষ্ট দেখা যাবে। চওড়া মাঠ crop করা ইচ্ছাকৃত।
+- হেডারে ওয়ার্ডমার্ক ও Explore থাকবে। বাড়তি Our spirit লিংক বাদ; স্ক্রল লিংক ওই সেকশনে যায়। বাটন/লিংকের ট্যাপ জায়গা অন্তত 44px।
+- মোবাইল hero-তে শুধু হালকা মাঠের drift: 3% translation, 1.035 scale। ফোনে হেডিং পাশে সরা বা সাবটাইটেল fade নয়।
+- Forest ও approach-এ ওপর-নিচে প্রায় 64px padding, বডি 20–21px ও স্ক্রিন অনুযায়ী হেডিং। লেখা পড়া যাবে; ছোট করা স্ক্রিনশট মনে হবে না।
+- Native disclosure লিস্টের ওপরে গাছ-ফুলের 80px চিহ্ন ও ক্যাপশন থাকবে। Summary-তে বৃত্তাকার state কন্ট্রোল ও বড় ট্যাপ জায়গা।
+- ব্রিদিংয়ে ওপর থেকে পরিচয়, র‍্যাবিট, status, meter ও কন্ট্রোল। পরিচয় মাঝখানে, নির্দেশনা 32ch-এর মধ্যে। Rabbit stage সর্বোচ্চ 340px, সেকশনে ওপর-নিচে 56px padding। বড় টেক্সট ব্লক দিয়ে Start/Stop-কে র‍্যাবিট থেকে দূরে রাখবেন না।
+- সূর্যাস্ত হবে ছবিতে সুন্দর শেষ, অন্তত 660px উঁচু। ছবি ডানদিকে ফোকাসড; কনটেন্ট বাড়তে পারবে। ফেরার লিংক flow-তে থাকবে, শেষের পরিচয় wrap করবে।
+- 360px-এর নিচে হেডার ছোট করুন। Explore-এর শুধু সাজের arrow বাদ দিন। ফোন landscape-এ hero লেখা 58px ও মাঠের row 330px।
 
-Do not disable zoom, hide overflow to conceal broken content or set a desktop minimum body width. Check 320px through desktop, portrait and landscape. A phone rendering is not a miniature desktop.
+Zoom বন্ধ করবেন না। ভুল লেআউট লুকাতে overflow লুকাবেন না বা body-তে ডেস্কটপের minimum width দেবেন না। 320px থেকে ডেস্কটপ, portrait ও landscape দেখুন। ফোনের পেজ ছোট করা ডেস্কটপ নয়।
 
-## Motion and interaction
+## মোশন ও ইন্টারঅ্যাকশন
 
-GSAP owns scroll scenes and disclosure transitions. Mobile/desktop motion is rebuilt when the 800px media query changes. Font readiness triggers the initial setup. OS reduced motion reverts scroll animation and suppresses CSS transitions/smooth scrolling.
+GSAP স্ক্রল দৃশ্য ও disclosure transition চালায়। 800px media query বদলালে মোবাইল/ডেস্কটপ মোশন আবার সেট হয়। ফন্ট প্রস্তুত হলে প্রথম সেটআপ চলে। OS reduced motion-এ স্ক্রল অ্যানিমেশন ফিরিয়ে নেওয়া হয়; CSS transition ও smooth scrolling বন্ধ থাকে।
 
-Native details panels retain semantic summaries. Opening takes 0.42 seconds; closing 0.3 seconds, with coordinated content opacity/translation and a rotating plus/minus circle. Rapid reversals kill the previous tween. Resize and motion-preference changes settle the panels to their requested state. Botanical selection changes with the opened panel. No hover is required to operate anything.
+Native details-এ semantic summary থাকবে। খুলতে 0.42 সেকেন্ড, বন্ধে 0.3 সেকেন্ড। সঙ্গে লেখা fade/সরে আসে ও plus/minus circle ঘোরে। দ্রুত উল্টো অ্যাকশন দিলে আগের tween বন্ধ হয়। Resize বা motion preference বদলালে panel চাওয়া অবস্থায় যায়। খোলা panel অনুযায়ী গাছ-ফুলের ভিজ্যুয়াল বদলায়। কোনো কাজেই hover বাধ্যতামূলক নয়।
 
-### Breathing
+### ব্রিদিং
 
-One optional round: **Start breathing → Breathe in (4 seconds) → Breathe out (6 seconds) → All done / Breathe again**. Stop remains available throughout; keyboard focus follows the active button. A polite atomic live region reports phase and timing. This is an optional playful pause, without medical claims.
+একটি ঐচ্ছিক রাউন্ড: **Start breathing → Breathe in (৪ সেকেন্ড) → Breathe out (৬ সেকেন্ড) → All done / Breathe again**। সবসময় Stop থাকবে। কিবোর্ড ফোকাস চালু বাটনে যাবে। Polite atomic live region ধাপ ও সময় জানায়। এটি মজার ছোট বিরতি; চিকিৎসার দাবি নেই।
 
-`src/rabbit-renderer.ts` renders the same flower-holding rabbit onto transparent canvas through chroma-keying an opaque magenta-backed texture. A 36×42 mesh expands the torso and raises hands/head/ears while anchoring the feet. On 2026-10-26, local deformation was amplified roughly threefold to make breathing visible at phone size: torso horizontal coefficient .48, vertical .060, hands .032, head .025, ears .008. Keep the face and flower coherent; never substitute whole-image zoom. A soft ground shadow subtly narrows with the breath, and the 180×5px meter fills/empties in sync.
+`src/rabbit-renderer.ts` একই ফুল ধরা র‍্যাবিটকে transparent canvas-এ দেখায়। Opaque magenta টেক্সচার chroma-key করা হয়। 36×42 mesh-এ পা স্থির রেখে বুক-পেট ফুলে ওঠে ও হাত/মাথা/কান ওঠে। 2026-10-26-এ ফোনেও বোঝাতে নড়াচড়া প্রায় তিনগুণ করা হয়েছে: torso horizontal coefficient .48, vertical .060, hands .032, head .025, ears .008। মুখ ও ফুলের আকার ঠিক রাখুন। পুরো ছবি জুম দিয়ে বদলাবেন না। শ্বাসের সঙ্গে মাটির নরম shadow সামান্য সরু হয় ও 180×5px মিটার ভরে/খালি হয়।
 
-`src/breathing.ts` drives the pose and meter with sine easing. The renderer redraws while active or resizing, not an idle endless animation loop. Hiding the tab, leaving the section or changing motion preference cancels the round. Reduced motion holds rabbit, shadow and meter still while timed text continues. WebGL/texture failure or context loss switches to the silhouette and text guide. The control is disabled only while loading.
+`src/breathing.ts` sine easing দিয়ে pose ও meter চালায়। চালু থাকলে বা resize-এ renderer আঁকে; idle অবস্থায় endless loop নয়। ট্যাব লুকালে, সেকশন ছাড়লে বা motion preference বদলালে রাউন্ড বন্ধ হয়। Reduced motion-এ র‍্যাবিট, shadow ও meter স্থির, সময় ধরে লেখা চলে। WebGL/টেক্সচার ব্যর্থ হলে বা context হারালে সিলুয়েট ও লেখা দেখায়। শুধু লোডিংয়ের সময় কন্ট্রোল disabled।
 
-## Accessibility and resilience
+## সবার ব্যবহার ও fallback
 
-Semantic landmarks, one h1, native links/details/buttons, skip link, visible focus, locally bundled fonts and real alt text. Controls must work with keyboard and touch. Content must remain understandable without animation. Never reinstate the rejected footer “Pause animations” control; use the OS preference.
+Semantic landmark, একটি h1, native link/details/button, skip link, স্পষ্ট focus, লোকাল ফন্ট ও আসল alt text রাখুন। কিবোর্ড ও টাচে কাজ করবে। অ্যানিমেশন ছাড়াও কনটেন্ট বোঝা যাবে। বাদ দেওয়া ফুটারের “Pause animations” ফেরাবেন না; OS preference ব্যবহার করুন।
 
-## Artwork and exports
+## ছবি ও এক্সপোর্ট
 
-Production meadow and sunset use WebP variants with provenance sidecars. The breathing texture is not a true-alpha image; transparency is created in the shader. Old square breathing plates remain reference-only and must not be reintroduced. The standalone logo is the existing SVG silhouette, not a generated rabbit illustration. See [ASSETS.md](docs/ASSETS.md).
+মাঠ ও সূর্যাস্তের প্রোডাকশন ছবিতে WebP ভ্যারিয়েন্ট ও উৎসের sidecar আছে। ব্রিদিং টেক্সচারে আসল alpha নেই; shader ট্রান্সপারেন্সি বানায়। পুরোনো বর্গাকার ব্রিদিং ছবি শুধু রেফারেন্স; ফেরাবেন না। আলাদা লোগো আগের SVG সিলুয়েট, জেনারেট করা র‍্যাবিট ছবি নয়। দেখুন [ASSETS.md](docs/ASSETS.md)।
 
-## Sources of truth
+## কোন তথ্য কোথায় মানবেন
 
-- Product truth: `PRODUCT.md` and approved decisions in `docs/PROJECT-CONTEXT.md`.
-- Brand: `docs/BRAND.md`, `brand/palette.css`, reusable SVGs.
-- Implementation: `index.html`, `src/style.css`, `src/main.ts`, breathing modules.
-- This document describes current behavior. `.impeccable/design.json` is a legacy generated sidecar and may be stale; it is not a competing design authority.
+- প্রোডাক্ট: `PRODUCT.md` ও `docs/PROJECT-CONTEXT.md`-এর অনুমোদিত সিদ্ধান্ত।
+- ব্র্যান্ড: `docs/BRAND.md`, `brand/palette.css` ও reusable SVG।
+- কোড: `index.html`, `src/style.css`, `src/main.ts` ও ব্রিদিং মডিউল।
+- এই ডক বর্তমান আচরণ বর্ণনা করে। `.impeccable/design.json` পুরোনো generated sidecar; আপডেট নাও থাকতে পারে। সেটি আলাদা ডিজাইন নির্দেশনা নয়।

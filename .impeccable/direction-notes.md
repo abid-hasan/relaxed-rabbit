@@ -1,26 +1,28 @@
-# Direction exploration
+# ডিজাইনের দিক খোঁজা
 
-Seed: b262369c; assigned grounded candidate 5.
+Seed: b262369c; দায়িত্বে grounded candidate 5।
 
-The surface is an experience introducing a small software studio, with useful software as purpose and a relaxed rabbit as its memorable identity. No catalogue or commercial proof is available. Avoid generic SaaS dashboards and their predictable dark neon opposite.
+এই পেজ একটি ছোট সফটওয়্যার স্টুডিওর পরিচয় দেয়। উদ্দেশ্য কাজের সফটওয়্যার, মনে রাখার চিহ্ন relaxed rabbit। ক্যাটালগ বা ব্যবসার প্রমাণ নেই। সাধারণ SaaS ড্যাশবোর্ড বা তার চেনা dark neon উল্টো স্টাইল এড়িয়ে চলুন।
 
-Grounded candidates in resonance order:
-1. Illustrated meadow — a sculpted rabbit's quiet garden unfolds with scroll.
-2. Kinetic typographic poster — expressive animated letterforms frame the rabbit.
-3. Pop-up storybook — pages unfold into rabbit scenes and concise studio principles.
-4. Ceramic maker's bench — tactile carefully made objects embody software craft.
-5. Hanging kinetic mobile — a rabbit rests among suspended soft sculptural forms, balanced by scroll.
-6. Picnic textile — a generous woven graphic field becomes a space to slow down.
-7. Animated festival identity — a playful motion programme gives software a character.
+কতটা মানায়, সেই ক্রমে ভাবনাগুলো:
 
-Assigned: Hanging kinetic mobile. Full viewport, suspended sculptural rabbit focal point, oversized clean rounded display typography, butter ground and forest ink, small cobalt accent. Scroll changes the balance and spacing of independently moving objects, then settles into focused editorial text.
+1. ছবির মাঠ — ভাস্কর্যের মতো র‍্যাবিটের শান্ত বাগান স্ক্রলে খুলবে।
+2. নড়তে থাকা অক্ষরের পোস্টার — অ্যানিমেটেড অক্ষরে র‍্যাবিটকে ঘিরে সাজ।
+3. পপ-আপ গল্পের বই — পাতা খুলে র‍্যাবিটের দৃশ্য ও ছোট স্টুডিও নীতি দেখা যাবে।
+4. সিরামিক কারিগরের বেঞ্চ — ছোঁয়া বোঝা যায় এমন যত্নে বানানো বস্তু দিয়ে সফটওয়্যারের যত্ন দেখানো।
+5. ঝুলন্ত নড়ন্ত ভাস্কর্য — স্ক্রলের ভারসাম্যে নরম ঝুলন্ত আকারের মাঝে বিশ্রামরত র‍্যাবিট।
+6. পিকনিকের কাপড় — চওড়া বোনা নকশার জায়গায় গতি কমানো।
+7. অ্যানিমেটেড উৎসবের পরিচয় — মজার মোশনে সফটওয়্যারের নিজস্ব চরিত্র।
 
-Challenger verdicts, based on audience identification and product clarity:
-- Sneaker boxes: declined; an absent product catalogue cannot support archive browsing. Keep disciplined material consistency.
-- Cyclorama dawn: declined; theatre cue controls obscure the simple studio introduction. Keep coherent scene-wide lighting transitions.
-- Seven-segment clock: declined; numeric instrumentation does not introduce a software studio or its rabbit. Keep deliberate inactive states and reduced-motion equivalents.
-- Depot blind: declined; monitoring state vocabulary has no real content here. Keep typographic hierarchy through scale and contrast.
-- Painted film poster: declined; billing and multiple hero scenes imply an invented cast/catalogue. Keep courage of one large focal subject.
-- Degrading broadcast: declined; alarm and failure imagery contradict the positive relaxed brief. Keep one coordinated animation timeline.
+দেওয়া দিক: ঝুলন্ত নড়ন্ত ভাস্কর্য। পুরো viewport, মূল ফোকাসে ঝুলন্ত র‍্যাবিট, বড় পরিষ্কার গোল ডিসপ্লে ফন্ট, butter ব্যাকগ্রাউন্ড ও forest লেখা, ছোট cobalt accent। স্ক্রলে আলাদা বস্তুর ভারসাম্য ও ফাঁক বদলাবে, তারপর মূল লেখায় স্থির হবে।
 
-All donations raise discipline; no borrowed visual motifs. User can adopt a declined direction explicitly. Top grounded pick remains the meadow; risk: more familiar mascot landing-page composition. A conventional studio composition remains an optional exit, never the recommendation.
+ইউজার কী বুঝবেন ও প্রোডাক্ট কতটা স্পষ্ট, তা ধরে বিকল্পগুলোর রায়:
+
+- Sneaker boxes: বাদ। ক্যাটালগ না থাকায় archive browsing চলে না। উপকরণের মিল রাখার নিয়ম নেওয়া হবে।
+- Cyclorama dawn: বাদ। থিয়েটারের cue কন্ট্রোলে স্টুডিওর সহজ পরিচয় চাপা পড়ে। পুরো দৃশ্যে মিল থাকা আলোর বদল রাখা হবে।
+- Seven-segment clock: বাদ। সংখ্যার যন্ত্রপাতি দিয়ে স্টুডিও বা র‍্যাবিটের পরিচয় হয় না। ঠিক করা inactive state ও reduced-motion বিকল্প রাখা হবে।
+- Depot blind: বাদ। Monitoring state-এর ভাষার জন্য এখানে আসল কনটেন্ট নেই। সাইজ ও কনট্রাস্টে লেখার গুরুত্ব বোঝানো হবে।
+- Painted film poster: বাদ। Billing ও অনেক hero দৃশ্য বানানো cast/catalogue বোঝায়। একটি বড় মূল বিষয় রাখার সাহস নেওয়া হবে।
+- Degrading broadcast: বাদ। বিপদ বা ব্যর্থতার ছবি ইতিবাচক শান্ত ভাবের সঙ্গে যায় না। একটি মিলিয়ে চালানো animation timeline রাখা হবে।
+
+এগুলো থেকে কাজ গোছানোর নিয়ম নেওয়া হবে, ছবির নকশা ধার নয়। ইউজার স্পষ্ট করে চাইলে বাদ দেওয়া দিক নিতে পারেন। সেরা পছন্দ মাঠই। ঝুঁকি: চেনা mascot landing-page-এর মতো লাগতে পারে। সাধারণ স্টুডিও লেআউট বিকল্প আছে, তবে সুপারিশ নয়।

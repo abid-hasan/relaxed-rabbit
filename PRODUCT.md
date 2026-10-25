@@ -1,43 +1,42 @@
-# Product
+# প্রোডাক্ট
 
 <!-- impeccable:product-schema 1 -->
 
-## Platform
+## প্ল্যাটফর্ম
 
 web
 
-## Stack
+## স্ট্যাক
 
-Delegated by the owner: a static Vite site with TypeScript and GSAP for coordinated scroll animation, deployed to GitHub Pages. No backend is required.
+মালিক প্রযুক্তি বাছাইয়ের দায়িত্ব দিয়েছেন। স্ট্যাটিক Vite সাইটে TypeScript ও GSAP দিয়ে স্ক্রল অ্যানিমেশন হয়। GitHub Pages-এ ডিপ্লয় হয়। ব্যাকএন্ড লাগে না।
 
-## Users
+## ইউজার
 
-People discovering Relaxed Rabbit and its software through the company domain.
+কোম্পানির ডোমেইনে এসে Relaxed Rabbit ও তার সফটওয়্যার সম্পর্কে জানতে চাওয়া মানুষ।
 
-## Product Purpose
+## উদ্দেশ্য
 
-Give relaxedrabbit.com a beautiful, memorable, functioning initial company presence. Introduce the studio without lengthy company information; real projects can be added later.
+relaxedrabbit.com-এ সুন্দর, মনে রাখার মতো, কাজ করে এমন কোম্পানির প্রথম ওয়েবসাইট দেওয়া। দীর্ঘ বিবরণ ছাড়াই স্টুডিওর পরিচয় দেওয়া। আসল প্রজেক্ট পরে যোগ করা যাবে।
 
-## Capabilities and Constraints
+## সুবিধা ও সীমা
 
-English copy. Do not display a public contact email. GitHub Pages hosting. No placeholder content, invented projects, clients, statistics or testimonials. No need for a project catalogue at launch. The site must work on phones as well as desktop.
+লেখা English হবে। পাবলিক ইমেইল দেখানো যাবে না। হোস্টিং GitHub Pages। প্লেসহোল্ডার, বানানো প্রজেক্ট, ক্লায়েন্ট, সংখ্যা বা রিভিউ নয়। শুরুতে প্রজেক্ট ক্যাটালগ লাগবে না। ফোন ও ডেস্কটপ দুটোতেই চলতে হবে।
 
-## Brand Commitments
+## ব্র্যান্ডের সিদ্ধান্ত
 
-Brand: Relaxed Rabbit. Domain purchased by the owner: relaxedrabbit.com. A cute rabbit identity with an ambitious animated, scroll-driven experience that makes the owner say wow. The owner approved visual mockups before website implementation and delegated the technology choice.
+ব্র্যান্ড: Relaxed Rabbit। মালিকের কেনা ডোমেইন: relaxedrabbit.com। কিউট র‍্যাবিট ও স্ক্রল অ্যানিমেশন দেখে যেন মালিকের “wow” মনে হয়। কাজ শুরুর আগে মালিক ভিজ্যুয়াল মকআপ পছন্দ করেছেন ও প্রযুক্তি বাছাইয়ের দায়িত্ব দিয়েছেন।
 
-## Evidence on Hand
+## হাতে থাকা তথ্য
 
-The owner develops software including My Arabic Vocab. The original site had no supplied company logo or visual system. The approved website now establishes its own identity; reusable logo and palette exports live in `brand/`. Artwork may be generated when needed, preserving the existing rabbit. Omit project listings in this initial site rather than inventing them.
+মালিক My Arabic Vocab-সহ সফটওয়্যার বানান। শুরুতে কোম্পানির লোগো বা ভিজ্যুয়াল সিস্টেম দেওয়া ছিল না। পছন্দ করা সাইট থেকেই এখন নিজস্ব ব্র্যান্ড তৈরি হয়েছে। লোগো ও প্যালেট `brand/`-এ আছে। দরকারে আগের র‍্যাবিটের চেহারা রেখে ছবি জেনারেট করা যাবে। প্রথম সাইটে প্রজেক্ট বানিয়ে না দিয়ে লিস্ট বাদ থাকবে।
 
-## Product Principles
+## মূল ভাবনা
 
-- Software made with care, communicated through simple human language.
-- A memorable experience with restrained, truthful company information.
-- Motion should connect scenes and express the rabbit's personality.
-- Preserve readability and usability with reduced motion and on smaller screens.
+- যত্ন নিয়ে বানানো সফটওয়্যারের কথা সহজ ভাষায় বলা।
+- অল্প, সত্যি তথ্য দিয়ে মনে রাখার মতো অভিজ্ঞতা দেওয়া।
+- মোশন দিয়ে দৃশ্যগুলো জোড়া দেওয়া ও র‍্যাবিটের স্বভাব দেখানো।
+- ছোট স্ক্রিন ও reduced motion-এও পড়া ও ব্যবহার সহজ রাখা।
 
+## পরের কাজের জন্য তথ্য
 
-## Durable project context
-
-Read `docs/PROJECT-CONTEXT.md` for the owner’s approved preferences and history. `docs/BRAND.md` defines the reusable brand, `DESIGN.md` describes implementation, and `AGENTS.md` is the cross-session entry point. On 2026-10-26 the owner requested stronger mobile composition, more visible breathing and this full project handoff while preserving the cute identity.
+মালিকের পছন্দ ও আগের সিদ্ধান্ত `docs/PROJECT-CONTEXT.md`-এ আছে। `docs/BRAND.md`-এ ব্র্যান্ড, `DESIGN.md`-এ ইমপ্লিমেন্টেশন, আর `AGENTS.md` দিয়ে নতুন সেশন শুরু হবে। 2026-10-26-এ মালিক কিউট ভাব রেখে মোবাইল লেআউট, আরও স্পষ্ট ব্রিদিং ও এই ডকগুলো চেয়েছেন।

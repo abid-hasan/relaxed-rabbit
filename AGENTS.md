@@ -1,27 +1,27 @@
-# Working on Relaxed Rabbit
+# Relaxed Rabbit-এ কাজের নিয়ম
 
-## Read first
+## আগে পড়ুন
 
-1. `PRODUCT.md` — purpose, scope and content constraints.
-2. `docs/PROJECT-CONTEXT.md` — owner's decisions and preferences.
-3. `docs/BRAND.md` and `brand/README.md` — reusable identity and logo files.
-4. `DESIGN.md` — actual UI, responsive and motion rules.
-5. `docs/MAINTENANCE.md` and `docs/ASSETS.md` — source map, verification, publishing and provenance.
+1. `PRODUCT.md` — উদ্দেশ্য, কাজের সীমা ও কনটেন্টের নিয়ম।
+2. `docs/PROJECT-CONTEXT.md` — মালিকের সিদ্ধান্ত ও পছন্দ।
+3. `docs/BRAND.md` ও `brand/README.md` — ব্র্যান্ড ও লোগোর ফাইল।
+4. `DESIGN.md` — UI, রেসপন্সিভ লেআউট ও মোশনের নিয়ম।
+5. `docs/MAINTENANCE.md` ও `docs/ASSETS.md` — কোডের অবস্থান, যাচাই, পাবলিশ ও অ্যাসেটের উৎস।
 
-## Non-negotiables
+## যে নিয়মগুলো মানতে হবে
 
-- Reply to the owner in Bangla. Public website copy is English.
-- Preserve the cute **A Rabbit’s Day Off** identity. Current meadow rabbit, warm colors and organic serif typography are approved. Do not turn this into a generic technology template.
-- This is an independent website. Do not import My Arabic Vocab's Lulu theme or development-branch policy. This site's deployment branch is `main`.
-- No fake projects, placeholder content, testimonials, client counts or public contact email. Do not add analytics, contact forms or external services without a request.
-- Before UI changes, read DESIGN.md. Use `brand/palette.css` and existing reusable styles. Keep mobile a deliberate layout, not a miniature desktop.
-- Keep OS reduced motion, semantic HTML, visible focus and readable no-animation states. Do not add the rejected manual pause-animations footer button.
-- Breathing uses the flower-holding rabbit, visible local body motion, clear Start/Stop/replay and timed text. Never replace it with whole-image zoom or an unrelated animal.
-- Do not write/modify automated test files. Build and manually inspect desktop, tablet and mobile viewports. Ask before using connected mobile devices.
-- Never stage, unstage, commit or push unless explicitly authorized for the current task. A prior task's authorization does not persist into new tasks. Preserve unrelated local work.
-- No tool/assistant attribution in branch names, commits, PR metadata or release notes.
-- If a choice needs the owner, give options and a recommendation with a reason; wait for the answer rather than auto-selecting after a timeout.
+- মালিককে ছোট, কথ্য বাংলায় উত্তর দিন। পরিচিত English শব্দ রাখুন। তথ্য না বদলে, লেখা না বাড়িয়ে ডক লিখুন। ওয়েবসাইটের লেখা English থাকবে।
+- **A Rabbit’s Day Off**-এর কিউট ভাব রাখুন। বর্তমান মাঠের র‍্যাবিট, উষ্ণ রং ও নরম সেরিফ ফন্ট পছন্দ করা হয়েছে। সাধারণ টেক টেমপ্লেট বানাবেন না।
+- এটি আলাদা ওয়েবসাইট। My Arabic Vocab-এর Lulu থিম বা development ব্রাঞ্চের নিয়ম এখানে আনবেন না। এই সাইটের ডিপ্লয় ব্রাঞ্চ `main`।
+- ভুয়া প্রজেক্ট, প্লেসহোল্ডার, রিভিউ, ক্লায়েন্টের সংখ্যা বা পাবলিক ইমেইল দেবেন না। অনুরোধ ছাড়া অ্যানালিটিক্স, কনট্যাক্ট ফর্ম বা বাইরের সার্ভিস যোগ করবেন না।
+- UI বদলানোর আগে DESIGN.md পড়ুন। `brand/palette.css` ও আগের স্টাইল ব্যবহার করুন। মোবাইলের জন্য আলাদা লেআউট রাখুন; ছোট করা ডেস্কটপ নয়।
+- OS reduced motion, semantic HTML, স্পষ্ট ফোকাস ও অ্যানিমেশন ছাড়াও পড়ার সুবিধা রাখুন। বাদ দেওয়া Pause animations বাটন ফুটারে ফেরাবেন না।
+- ব্রিদিংয়ে ফুল ধরা র‍্যাবিট, শরীরের স্পষ্ট নড়াচড়া, Start/Stop/replay ও সময় ধরে লেখা থাকবে। পুরো ছবি জুম বা অন্য প্রাণী দিয়ে বদলাবেন না।
+- অটোমেটেড টেস্ট ফাইল লিখবেন বা বদলাবেন না। বিল্ড করে ডেস্কটপ, ট্যাবলেট ও মোবাইল ভিউ নিজে দেখুন। কানেক্টেড ফোন ব্যবহারের আগে অনুমতি নিন।
+- এই কাজের জন্য স্পষ্ট অনুমতি ছাড়া stage, unstage, commit বা push করবেন না। আগের কাজের অনুমতি নতুন কাজে চলে না। অন্য লোকাল কাজ অক্ষত রাখুন।
+- ব্রাঞ্চের নাম, কমিট, PR metadata বা রিলিজ নোটে টুল/অ্যাসিস্ট্যান্টের কৃতিত্ব দেবেন না।
+- সিদ্ধান্ত লাগলে অপশন দিন। কোনটা সুপারিশ করছেন ও কেন, বলুন। উত্তরের জন্য অপেক্ষা করুন; সময় পেরোলেই নিজে বেছে নেবেন না।
 
-## Finish
+## শেষ করার আগে
 
-Run `npm run build`, `git diff --check` and bounded visual/interaction checks. Document changed patterns and any real verification limits. If commit/push is authorized, check the deployment result and report the SHA. Do not claim live deployment or Google indexing based only on a local build.
+`npm run build`, `git diff --check` ও প্রয়োজনমতো ভিজ্যুয়াল/ইন্টারঅ্যাকশন চেক করুন। বদলানো প্যাটার্ন ও যাচাইয়ের সীমা লিখুন। কমিট/পুশের অনুমতি থাকলে ডিপ্লয় চেক করে SHA জানান। শুধু লোকাল বিল্ড দেখে লাইভ ডিপ্লয় বা Google indexing হয়েছে বলবেন না।

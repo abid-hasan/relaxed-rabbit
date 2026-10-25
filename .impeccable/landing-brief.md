@@ -1,17 +1,17 @@
-# Landing page
+# ল্যান্ডিং পেজ
 
-Mode: Experience. English software studio presence on relaxedrabbit.com. No public contact email, invented projects, clients or metrics. User approved original centered meadow composition A on 2026-10-10; approved comp: .impeccable/mocks/meadow-original.png.
+Mode: Experience। relaxedrabbit.com-এ English সফটওয়্যার স্টুডিওর পরিচয়। পাবলিক ইমেইল, বানানো প্রজেক্ট, ক্লায়েন্ট বা সংখ্যা নয়। 2026-10-10-এ ইউজার মাঝখানে সাজানো মূল meadow composition A পছন্দ করেছেন। মকআপ: .impeccable/mocks/meadow-original.png।
 
-## Direction contract
+## ডিজাইনের ঠিক করা দিক
 
-THESIS: A rabbit's unhurried day makes the studio's care tangible, without a generic product-card landing page.
+THESIS: র‍্যাবিটের ধীরেসুস্থে কাটানো দিন স্টুডিওর যত্নের ভাব দেখাবে। সাধারণ product-card ল্যান্ডিং পেজ নয়।
 
-OWN-WORLD: Sunlit oat ground, forest-green heavy organic serif, mossy miniature meadow and cream sculptural rabbit; thin quiet rules and round arrow controls.
+OWN-WORLD: রোদেলা oat রঙের মাটি, গাঢ় সবুজ মোটা নরম সেরিফ, শ্যাওলাভরা ছোট মাঠ ও ক্রিম ভাস্কর্যের মতো র‍্যাবিট। সরু হালকা লাইন ও গোল arrow কন্ট্রোল।
 
-STORY: Meet the rabbit, explore the studio's values, enjoy a small breathing interaction, and leave with a memorable software identity.
+STORY: র‍্যাবিটের সঙ্গে পরিচয়, স্টুডিওর ভাবনা দেখা, ছোট ব্রিদিং ইন্টারঅ্যাকশন ও মনে রাখার মতো সফটওয়্যার ব্র্যান্ডের পরিচয় নিয়ে ফেরা।
 
-FIRST VIEWPORT: Slim wordmark/navigation row; enormous centered two-line headline; a short centered subtitle; panoramic rabbit meadow across lower half; bottom-left scroll link and quiet right care label. Scroll moves image and typography at different rates, then shifts into a forest-green editorial passage.
+FIRST VIEWPORT: সরু ওয়ার্ডমার্ক/নেভিগেশন সারি; মাঝে বিশাল দুই লাইনের হেডিং; ছোট মাঝখানে রাখা সাবটাইটেল; নিচের অর্ধেকে র‍্যাবিটের মাঠের প্যানোরামা; নিচে বামে স্ক্রল লিংক, ডানে ছোট care label। স্ক্রলে ছবি ও লেখা আলাদা গতিতে নড়ে, তারপর গাঢ় সবুজ লেখার অংশ আসে।
 
-FORM: Illustrated meadow, grounded candidate 1 (user selected pick), seed b262369c. Original composition A selected. Static Vite/TypeScript/GSAP with native semantic content and reduced-motion fallback.
+FORM: Illustrated meadow, grounded candidate 1 (ইউজারের পছন্দ), seed b262369c। মূল composition A বাছা হয়েছে। Static Vite/TypeScript/GSAP, native semantic কনটেন্ট ও reduced-motion fallback।
 
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+FINISH: রিভিউ ও ডক ছাড়া কাজ শেষ নয়। শেষে finish review, রায়, DESIGN.md এবং ব্যবহৃত প্রতিটি raster-এর উৎসের তথ্য থাকবে।

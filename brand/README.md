@@ -1,19 +1,19 @@
-# Relaxed Rabbit brand kit
+# Relaxed Rabbit ব্র্যান্ড কিট
 
-Read [brand guidelines](../docs/BRAND.md) before using these files.
+ফাইল ব্যবহারের আগে [ব্র্যান্ড গাইড](../docs/BRAND.md) পড়ুন।
 
-- `rabbit-mark-{forest,cream,black}.svg`: transparent vector symbol.
-- `wordmark-{forest,cream}.svg`: transparent horizontal logo with outlined lettering; no font installation required.
-- `app-icon.svg`: the existing cream tile and rabbit, suitable as an icon source.
-- `palette.css`: shared production primitives (`--rr-*`), imported by the website.
-- `palette.json`: sRGB values for other tools and apps.
-- `palette.gpl`: swatches for tools supporting GIMP palettes.
-- `palette.svg`: visual color reference.
+- `rabbit-mark-{forest,cream,black}.svg`: ট্রান্সপারেন্ট ভেক্টর চিহ্ন।
+- `wordmark-{forest,cream}.svg`: ট্রান্সপারেন্ট আড়াআড়ি লোগো; লেখা outline করা, ফন্ট ইনস্টল লাগে না।
+- `app-icon.svg`: আগের ক্রিম টাইল ও র‍্যাবিট; আইকনের সোর্স হিসেবে ব্যবহার করা যাবে।
+- `palette.css`: সাইটে ইমপোর্ট করা শেয়ার করা রং (`--rr-*`)।
+- `palette.json`: অন্য টুল ও অ্যাপের জন্য sRGB মান।
+- `palette.gpl`: GIMP প্যালেট সাপোর্ট করে এমন টুলের রং।
+- `palette.svg`: রংগুলো একসঙ্গে দেখার ফাইল।
 
-![Forest wordmark](wordmark-forest.svg)
+![Forest ওয়ার্ডমার্ক](wordmark-forest.svg)
 
-![Palette](palette.svg)
+![রঙের প্যালেট](palette.svg)
 
-Import SVG directly into Figma, Illustrator, Inkscape or other vector-aware tools. Export a PNG there at the size required by the destination; keep transparency for standalone marks. All SVG wordmarks contain paths, not externally linked fonts. The wordmark uses Linden Hill Regular outlines; see `public/licenses/` for the font license. The rabbit path comes from the existing website mark. No raster or photo is substituted for the logo.
+SVG সরাসরি Figma, Illustrator, Inkscape বা ভেক্টর টুলে নিন। দরকারমতো সাইজে PNG এক্সপোর্ট করুন। আলাদা লোগোয় ট্রান্সপারেন্সি রাখুন। SVG ওয়ার্ডমার্কে path আছে, বাইরের ফন্ট লাগে না। লেখা Linden Hill Regular থেকে outline করা; লাইসেন্স `public/licenses/`-এ। র‍্যাবিটের path আগের সাইটের চিহ্ন থেকে নেওয়া। লোগোর বদলে রাস্টার বা ছবি দেওয়া হয়নি।
 
-This folder is a source brand kit, not automatically published by Vite. Only assets referenced by the app or placed deliberately in `public/` are deployed. The palette CSS is bundled because the app imports it. Keep private notes and source prompts out of `public/`.
+এই ফোল্ডার সোর্স ব্র্যান্ড কিট; Vite নিজে সব পাবলিশ করে না। অ্যাপে ব্যবহার করা বা ইচ্ছা করে `public/`-এ রাখা অ্যাসেটই ডিপ্লয় হয়। প্যালেট CSS ইমপোর্ট করা বলে বিল্ডে যায়। ব্যক্তিগত নোট ও সোর্স প্রম্পট `public/`-এ রাখবেন না।

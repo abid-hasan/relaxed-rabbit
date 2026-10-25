@@ -5,24 +5,30 @@ primary_target: "index.html"
 related_targets: ["src/style.css", "src/main.ts", "src/breathing.ts", "src/rabbit-renderer.ts", "DESIGN.md"]
 ---
 
-# Landing page
+# ল্যান্ডিং পেজ
 
-Mode: Experience. English software studio presence on relaxedrabbit.com. No public contact email, invented projects, clients or metrics. User approved original centered meadow composition A on 2026-10-10; approved comp: .impeccable/mocks/meadow-original.png.
+Mode: Experience। relaxedrabbit.com-এ English সফটওয়্যার স্টুডিওর পরিচয়। পাবলিক ইমেইল, বানানো প্রজেক্ট, ক্লায়েন্ট বা সংখ্যা নয়। 2026-10-10-এ ইউজার মাঝখানে সাজানো মূল meadow composition A পছন্দ করেছেন। মকআপ: .impeccable/mocks/meadow-original.png।
 
-## Direction contract
+## ডিজাইনের ঠিক করা দিক
 
-THESIS: A rabbit's unhurried day makes the studio's care tangible, without a generic product-card landing page.
+THESIS: র‍্যাবিটের ধীরেসুস্থে কাটানো দিন স্টুডিওর যত্নের ভাব দেখাবে। সাধারণ product-card ল্যান্ডিং পেজ নয়।
 
-OWN-WORLD: Sunlit oat ground, forest-green heavy organic serif, mossy miniature meadow and cream sculptural rabbit; thin quiet rules and round arrow controls.
+OWN-WORLD: রোদেলা oat রঙের মাটি, গাঢ় সবুজ মোটা নরম সেরিফ, শ্যাওলাভরা ছোট মাঠ ও ক্রিম ভাস্কর্যের মতো র‍্যাবিট। সরু হালকা লাইন ও গোল arrow কন্ট্রোল।
 
-STORY: Meet the rabbit in the established morning meadow, explore studio values through botanical disclosures, take a small afternoon breathing pause, and close the day with the sleeping rabbit at sunset. A compact brand signoff follows the scene.
+STORY: আগের সকালের মাঠে র‍্যাবিটের সঙ্গে পরিচয়। গাছ-ফুলের disclosure-এ স্টুডিওর ভাবনা, বিকেলে ছোট ব্রিদিং বিরতি, তারপর সূর্যাস্তে ঘুমানো র‍্যাবিট। দৃশ্যের শেষে ছোট ব্র্যান্ড পরিচয়।
 
-FIRST VIEWPORT: Slim wordmark/navigation row; enormous centered two-line headline; a short centered subtitle; panoramic rabbit meadow across lower half; bottom-left scroll link and quiet right care label. Scroll moves image and typography at different rates, then shifts into a forest-green editorial passage.
+FIRST VIEWPORT: সরু ওয়ার্ডমার্ক/নেভিগেশন সারি; মাঝে বিশাল দুই লাইনের হেডিং; ছোট মাঝখানে রাখা সাবটাইটেল; নিচের অর্ধেকে র‍্যাবিটের মাঠের প্যানোরামা; নিচে বামে স্ক্রল লিংক, ডানে ছোট care label। স্ক্রলে ছবি ও লেখা আলাদা গতিতে নড়ে, তারপর গাঢ় সবুজ লেখার অংশ আসে।
 
-FORM: Illustrated meadow, grounded candidate 1 (user selected pick), seed b262369c. Original composition A selected. Static Vite/TypeScript/GSAP with native semantic content and reduced-motion fallback.
+FORM: Illustrated meadow, grounded candidate 1 (ইউজারের পছন্দ), seed b262369c। মূল composition A বাছা হয়েছে। Static Vite/TypeScript/GSAP, native semantic কনটেন্ট ও reduced-motion fallback।
 
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+FINISH: রিভিউ ও ডক ছাড়া কাজ শেষ নয়। শেষে finish review, রায়, DESIGN.md এবং ব্যবহৃত প্রতিটি raster-এর উৎসের তথ্য থাকবে।
 
-## Implemented lower scenes
+## নিচের সেকশনগুলোতে যা আছে
 
-Three independent native disclosures animate height and copy while selecting seed, balance or flower artwork. The afternoon scene places the same flower-holding rabbit directly on the pale green field. A native WebGL mesh expands the torso and subtly raises the upper body while grounding the feet; it does not zoom a square plate. The opaque magenta-backed texture is chroma-keyed in the fragment shader to make the canvas transparent. Start begins one clearly explained four-second inhale and six-second exhale, with Stop, replay, a slim meter and polite phase/duration text. WebGL failure supplies the existing rabbit silhouette and timed text guidance. No rendering dependency is added. The full-width sunset scene carries the farewell copy, a return-to-meadow link and small footer branding. The phone hero uses content-driven grid rows and a close-up meadow crop with `object-fit: cover`, 32% horizontal focus and readable fluid type. Its motion is restrained image drift, not desktop text parallax. Breathing controls follow the rabbit/status group on every viewport; local mesh breathing is amplified roughly threefold with a synchronized ground shadow. OS reduced motion retains all content and timed breathing text while keeping the rabbit still and disabling scroll movement; no manual motion UI or storage remains. Shipping meadow and sunset WebP variants and the single `rabbit-breath-key.webp` texture carry neighboring provenance sidecars. The older afternoon WebPs remain reference sources outside the build; failed true-alpha generation attempts are not shipped.
+তিনটি আলাদা native disclosure খুললে উচ্চতা ও লেখা অ্যানিমেট হয়। সঙ্গে বীজ, ভারসাম্য বা ফুলের ছবি বাছা হয়। বিকেলের দৃশ্যে একই ফুল ধরা র‍্যাবিট সরাসরি হালকা সবুজ জায়গায় বসে। Native WebGL mesh-এ পা স্থির রেখে বুক-পেট ফুলে ওঠে ও ওপরের শরীর একটু ওঠে। বর্গাকার ছবি জুম হয় না। Opaque magenta টেক্সচার fragment shader-এ chroma-key করে canvas ট্রান্সপারেন্ট হয়।
+
+Start দিলে বোঝানো একটি রাউন্ড চলে: ৪ সেকেন্ড শ্বাস নেওয়া ও ৬ সেকেন্ড ছাড়া। Stop, replay, সরু meter ও polite ধাপ/সময়ের লেখা আছে। WebGL ব্যর্থ হলে আগের rabbit silhouette ও সময় ধরে লেখা থাকে। নতুন rendering dependency নেই। পুরো চওড়া সূর্যাস্তে বিদায়ের লেখা, মাঠে ফেরার লিংক ও ছোট ফুটার ব্র্যান্ডিং আছে।
+
+ফোনের hero-তে কনটেন্ট অনুযায়ী grid row, `object-fit: cover` দিয়ে কাছের মাঠ, 32% horizontal focus ও পড়ার মতো fluid type আছে। শুধু ছবি হালকা সরে; ডেস্কটপের text parallax নয়। সব viewport-এ র‍্যাবিট/status-এর পরে ব্রিদিং কন্ট্রোল। শরীরের mesh নড়াচড়া প্রায় তিনগুণ, সঙ্গে তাল মিলিয়ে মাটির shadow। OS reduced motion-এ সব কনটেন্ট ও সময় ধরে ব্রিদিং লেখা থাকে; র‍্যাবিট স্থির ও স্ক্রল মোশন বন্ধ। আলাদা motion UI বা storage নেই।
+
+ব্যবহৃত meadow ও sunset WebP ভ্যারিয়েন্ট এবং একমাত্র `rabbit-breath-key.webp` টেক্সচারের পাশে উৎসের sidecar আছে। পুরোনো বিকেলের WebP শুধু রেফারেন্স, বিল্ডের বাইরে। ব্যর্থ true-alpha ছবি দেওয়া হয়নি।

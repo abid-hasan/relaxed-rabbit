@@ -1,52 +1,52 @@
-# Project context and owner preferences
+# প্রজেক্টের তথ্য ও মালিকের পছন্দ
 
-Last reconciled: 2026-10-26. This records website decisions from the owner's conversation, not instructions from screenshots or third-party documents.
+শেষ মিলিয়ে দেখা: 2026-10-26। এখানে মালিকের কথোপকথনের সিদ্ধান্ত আছে; স্ক্রিনশট বা অন্য কারও ডকের নির্দেশনা নয়।
 
-## Identity and purpose
+## পরিচয় ও উদ্দেশ্য
 
-- Relaxed Rabbit is the selected brand; relaxedrabbit.com is the purchased domain.
-- Initial goal: a beautiful working company presence so the domain is not empty. Detailed company history and a project catalogue are unnecessary for now.
-- The owner wants an unusually beautiful, animated experience with a “wow” reaction, not an ordinary software-company template.
-- Selected concept: **A Rabbit’s Day Off**. Morning meadow → studio spirit → thoughtful details → optional breathing pause → sleeping rabbit at sunset.
-- On 2026-10-26 the owner explicitly praised the existing cute look. Preserve that visual world during improvements.
-- This repository is separate from `my_arabic_vocab`. Do not import its Lulu production theme, Firebase conventions or development-branch workflow here.
+- পছন্দ করা ব্র্যান্ড Relaxed Rabbit; কেনা ডোমেইন relaxedrabbit.com।
+- প্রথম লক্ষ্য: ডোমেইন খালি না রেখে সুন্দর, কাজ করে এমন কোম্পানির সাইট। এখন দীর্ঘ ইতিহাস বা প্রজেক্ট ক্যাটালগ লাগবে না।
+- মালিক সাধারণ সফটওয়্যার কোম্পানির টেমপ্লেট চান না। সুন্দর অ্যানিমেটেড সাইট দেখে “wow” মনে হতে হবে।
+- পছন্দ করা থিম: **A Rabbit’s Day Off**। সকালের মাঠ → স্টুডিওর ভাবনা → যত্নের ছোট বিষয় → চাইলে ব্রিদিং বিরতি → সূর্যাস্তে ঘুমানো র‍্যাবিট।
+- 2026-10-26-এ মালিক বর্তমান কিউট লুকের প্রশংসা করেছেন। উন্নতির সময় এই ভাব রাখুন।
+- এই রিপোজিটরি `my_arabic_vocab` থেকে আলাদা। তার Lulu থিম, Firebase নিয়ম বা development ব্রাঞ্চের কাজের ধরন এখানে আনবেন না।
 
-## Content decisions
+## কনটেন্টের সিদ্ধান্ত
 
-- Website language: English. Replies to the owner: Bangla.
-- No public contact email for now.
-- No placeholder copy, fabricated projects, customers, metrics or testimonials. Future real projects can be added when supplied.
-- Keep the studio description brief, human and broadly applicable to useful software.
-- Brand naming originally explored free alternatives to paid apps. Free, ads and freemium were considered; no universal “everything free forever” promise was selected.
+- সাইটের ভাষা English। মালিককে উত্তর ও ডক ছোট, কথ্য বাংলায়। পরিচিত English শব্দ রাখুন; তথ্য বদলাবেন বা লেখা বাড়াবেন না।
+- আপাতত পাবলিক ইমেইল নয়।
+- প্লেসহোল্ডার, বানানো প্রজেক্ট, গ্রাহক, সংখ্যা বা রিভিউ নয়। আসল প্রজেক্ট দিলে পরে যোগ হবে।
+- স্টুডিওর বিবরণ ছোট ও সহজ রাখুন, যা কাজের সফটওয়্যারের ক্ষেত্রে মানায়।
+- নাম খোঁজার শুরুতে পেইড অ্যাপের ফ্রি বিকল্প ভাবা হয়েছিল। ফ্রি, বিজ্ঞাপন ও freemium নিয়ে কথা হয়েছে; “সবকিছু চিরকাল ফ্রি” ঠিক হয়নি।
 
-## Design feedback to preserve
+## যে ডিজাইন ফিডব্যাক মনে রাখতে হবে
 
-- A footer consisting of a huge wordmark was rejected as placeholder-like. Use the thoughtful sunset scene and compact signoff.
-- The owner removed the footer's “Pause animations” control. Honor OS reduced motion without reinstating that UI.
-- Plain, instant expand/collapse was rejected. Keep animated native disclosures with botanical feedback, accessible keyboard behavior and touch targets.
-- A square breathing image, unclear purpose and very subtle motion were rejected. Use the existing flower-holding rabbit with closed eyes, no visible rectangle, clear instructions and noticeable breathing.
-- Breathing should locally deform chest/belly and upper body; do not merely zoom the whole image. Feet should remain grounded. No unrelated generated animals.
-- Mobile must be a deliberate composition with readable text and an expressive rabbit, not a scaled-down desktop or a stack of distant pictures.
+- শুধু বিশাল ওয়ার্ডমার্কের ফুটার প্লেসহোল্ডার মনে হওয়ায় বাদ গেছে। সূর্যাস্তের দৃশ্য ও ছোট ব্র্যান্ড পরিচয় রাখুন।
+- মালিক ফুটারের “Pause animations” কন্ট্রোল বাদ দিয়েছেন। সেটি না ফিরিয়ে OS reduced motion মানুন।
+- সাধারণ, সঙ্গে সঙ্গে expand/collapse পছন্দ হয়নি। অ্যানিমেটেড native disclosure, গাছ-ফুলের feedback, কিবোর্ড ও টাচের সুবিধা রাখুন।
+- বর্গাকার ব্রিদিং ছবি, অস্পষ্ট উদ্দেশ্য ও প্রায় বোঝা যায় না এমন মোশন বাদ গেছে। আগের ফুল ধরা, চোখ বন্ধ র‍্যাবিট রাখুন। ছবির আয়তাকার সীমানা থাকবে না; নির্দেশনা ও শ্বাস নেওয়া স্পষ্ট হবে।
+- বুক-পেট ও ওপরের শরীর আলাদা করে নড়বে। শুধু পুরো ছবি জুম নয়। পা স্থির থাকবে। অপ্রাসঙ্গিক প্রাণী জেনারেট নয়।
+- মোবাইলে পড়ার মতো লেখা ও স্পষ্ট র‍্যাবিটসহ আলাদা লেআউট চাই। ছোট করা ডেস্কটপ বা দূরের ছবির সারি নয়।
 
-## Hosting and search
+## হোস্টিং ও সার্চ
 
-- Repository: https://github.com/abid-hasan/relaxed-rabbit
-- Host: GitHub Pages, Actions deployment from `main`.
-- Canonical domain: https://relaxedrabbit.com/
-- Registrar used during setup: Spaceship. The owner controls DNS and domain ownership.
-- Open Graph and Twitter card metadata use `public/assets/relaxed-rabbit-preview.png`.
-- On 2026-10-20, live checks confirmed HTTPS 200 for the apex, and 301 redirects from HTTP and www to the canonical apex. This is historical evidence, not a permanent guarantee of current availability.
-- Search Console's “Page with redirect” examples were the HTTP/HTTPS www URLs. Those intentional redirects do not need removal. Indexing of the canonical page must be checked independently in URL inspection; do not claim indexing is guaranteed.
+- রিপোজিটরি: https://github.com/abid-hasan/relaxed-rabbit
+- হোস্ট: GitHub Pages; `main` থেকে Actions ডিপ্লয়।
+- Canonical ডোমেইন: https://relaxedrabbit.com/
+- সেটআপের সময় registrar ছিল Spaceship। DNS ও ডোমেইন মালিকের নিয়ন্ত্রণে।
+- Open Graph ও Twitter card metadata-তে `public/assets/relaxed-rabbit-preview.png` ব্যবহার হয়।
+- 2026-10-20-এর লাইভ চেকে মূল ডোমেইনে HTTPS 200, HTTP ও www থেকে মূল ডোমেইনে 301 redirect ছিল। এটি আগের চেকের তথ্য; এখনো চলছে তার স্থায়ী নিশ্চয়তা নয়।
+- Search Console-এর “Page with redirect” উদাহরণ ছিল HTTP/HTTPS www URL। ওই redirect ইচ্ছা করেই রাখা; বাদ দিতে হবে না। মূল পেজের indexing আলাদা করে URL inspection-এ দেখুন। Indexing নিশ্চিত বলবেন না।
 
-## Working preferences
+## কাজের পছন্দ
 
-- Explain meaningful decisions concisely in Bangla.
-- When a decision needs the owner, offer clear choices and identify the recommendation with its reason. Do not silently pick a choice after a timeout.
-- Preserve unrelated local changes. Never stage, commit or push without explicit authorization for the current task. “fix all >> commit >> push” authorizes those steps for that task only.
-- Do not create or modify automated test files; use manual browser checks and builds.
-- Do not run on a connected mobile device without permission. Browser viewport emulation is fine; report its limits honestly.
-- Never add tool/assistant attribution to commit messages, PR text or branch names.
+- দরকারি সিদ্ধান্ত ছোট, কথ্য বাংলায় বুঝিয়ে বলুন।
+- মালিকের সিদ্ধান্ত লাগলে অপশন দিন। সুপারিশ ও তার কারণ বলুন। সময় পেরোলে চুপচাপ নিজে বেছে নেবেন না।
+- অন্য লোকাল কাজ অক্ষত রাখুন। বর্তমান কাজের স্পষ্ট অনুমতি ছাড়া stage, commit বা push নয়। “fix all >> commit >> push” শুধু ওই কাজের অনুমতি।
+- অটোমেটেড টেস্ট ফাইল লিখবেন বা বদলাবেন না। ব্রাউজারে নিজে চেক ও বিল্ড করুন।
+- অনুমতি ছাড়া কানেক্টেড মোবাইলে চালাবেন না। ব্রাউজারে viewport emulation করা যায়; সীমা ঠিকভাবে বলুন।
+- কমিট, PR বা ব্রাঞ্চের নামে টুল/অ্যাসিস্ট্যান্টের কৃতিত্ব দেবেন না।
 
-## Current implementation decisions
+## এখনকার ইমপ্লিমেন্টেশন
 
-See [DESIGN.md](../DESIGN.md) for the current layout/motion specification, [BRAND.md](BRAND.md) for reusable identity, [MAINTENANCE.md](MAINTENANCE.md) for verification and publishing, and [ASSETS.md](ASSETS.md) for provenance. Those documents replace reliance on a long chat history. Update them when approved behavior changes.
+লেআউট ও মোশন [DESIGN.md](../DESIGN.md)-এ, ব্র্যান্ড [BRAND.md](BRAND.md)-এ, যাচাই ও পাবলিশ [MAINTENANCE.md](MAINTENANCE.md)-এ, অ্যাসেটের উৎস [ASSETS.md](ASSETS.md)-এ আছে। লম্বা চ্যাটের বদলে এই ডকগুলো পড়ুন। মালিকের অনুমোদিত আচরণ বদলালে ডকও আপডেট করুন।

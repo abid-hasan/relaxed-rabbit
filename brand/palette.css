@@ -1,0 +1,10 @@
+/* Relaxed Rabbit shared brand primitives. See docs/BRAND.md. */
+:root {
+  --rr-cream: #f4eedc;
+  --rr-ink: #1c3825;
+  --rr-moss: #526645;
+  --rr-sage: #c2d09c;
+  --rr-sun: #edd47c;
+  --rr-line: #879478;
+  --rr-pause: #dce3c5;
+}

@@ -19,8 +19,8 @@ void main() {
   float hands = region(p, vec2(.55,.57), vec2(.23,.18));
   float head = region(p, vec2(.48,.40), vec2(.35,.37));
   float ears = region(p, vec2(.36,.19), vec2(.25,.28));
-  p.x += uBreath * ((p.x-.52)*.15*torso + .004*ears);
-  p.y -= uBreath * (.022*torso + .012*hands + .009*head + .003*ears);
+  p.x += uBreath * ((p.x-.52)*.48*torso + .008*ears);
+  p.y -= uBreath * (.060*torso + .032*hands + .025*head + .008*ears);
   p = p*.90 + .05;
   gl_Position = vec4(p.x*2.0-1.0, 1.0-p.y*2.0, 0.0, 1.0);
 }`;

@@ -28,6 +28,7 @@ export function setupBreathing(media: MediaQueryList) {
     pose.amount = 0;
     renderer?.draw(0);
     progress.style.transform = 'scaleX(0)';
+    section.style.setProperty('--breath', '0');
     section.dataset.breath = completed ? 'done' : 'ready';
     const returnFocus = document.activeElement === stop;
     start.hidden = false;
@@ -39,6 +40,7 @@ export function setupBreathing(media: MediaQueryList) {
   }
   function draw() {
     renderer?.draw(media.matches ? 0 : pose.amount);
+    section.style.setProperty('--breath', String(media.matches ? 0 : pose.amount));
     progress.style.transform = `scaleX(${media.matches ? 0 : pose.amount})`;
   }
   function fallback() {

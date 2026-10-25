@@ -1,51 +1,55 @@
 # Relaxed Rabbit
 
-An illustrated, scroll-driven studio website for **relaxedrabbit.com**. Built with Vite, TypeScript and GSAP; fully static and ready for GitHub Pages.
+**Good things. At a gentler pace.** A cute, illustrated software-studio website: a rabbit's day from a sunny meadow to a quiet sunset.
 
-## Local development
+Live: [relaxedrabbit.com](https://relaxedrabbit.com/) · Repository: [abid-hasan/relaxed-rabbit](https://github.com/abid-hasan/relaxed-rabbit)
 
-Requires Node.js 22.12+ (or a newer supported version).
+## Start here
+
+| Need | Read |
+| --- | --- |
+| Work on the project in a new session | [AGENTS.md](AGENTS.md), then [project context](docs/PROJECT-CONTEXT.md) |
+| Understand scope and owner preferences | [PRODUCT.md](PRODUCT.md) and [project context](docs/PROJECT-CONTEXT.md) |
+| Reuse logos, colors or typography | [Brand guidelines](docs/BRAND.md) and [brand kit](brand/README.md) |
+| Change layout or motion | [DESIGN.md](DESIGN.md) |
+| Build, verify or publish | [Maintenance guide](docs/MAINTENANCE.md) |
+| Understand imagery and licenses | [Asset provenance](docs/ASSETS.md) |
+| Start through Claude | [CLAUDE.md](CLAUDE.md), which links to the same working rules |
+
+## Run locally
+
+Node.js 22.12+ (or a compatible newer release).
 
 ```sh
 npm ci
 npm run dev
 ```
 
-## Production
+Use the localhost URL printed by Vite. Production check:
 
 ```sh
 npm run build
 npm run preview
 ```
 
-`dist/` is the only deployment directory. Product/design documents, prompts, reference comps and unoptimized source artwork do not belong in the public deployment.
+No backend, environment secrets or paid service is needed. Stack: Vite, TypeScript, GSAP and a small native WebGL rabbit renderer. Fonts and images are bundled locally.
 
-## GitHub Pages
+## Experience
 
-1. Create a GitHub repository and push the project after reviewing and committing it yourself.
-2. In repository **Settings → Pages**, choose **GitHub Actions** as the source.
-3. The supplied workflow builds and deploys pushes to `main`, or can run manually. If you use another deployment branch, update its branch filter.
-4. Set the Pages custom domain to `relaxedrabbit.com`, then follow the DNS records shown by GitHub for your account. Verify domain ownership with GitHub's TXT record before connecting it. Configure the apex and `www` consistently, wait for DNS verification, and enable HTTPS.
-5. Confirm the public HTTPS site, favicon, images, anchors and mobile layout after deployment.
+- Content-led mobile layout with close-up meadow art, readable type and touch-friendly controls; desktop retains its wide cinematic composition.
+- Studio values use animated native disclosures with botanical feedback.
+- An optional breathing pause runs one 10-second round: four seconds in, six out, with Start, Stop and replay. Chest/belly and upper-body motion are deliberately visible while feet remain grounded. Controls sit below the rabbit.
+- Reduced motion keeps the rabbit and meter still, retaining text guidance. WebGL/texture failure uses the silhouette and text. Leaving the section or hiding the page cancels the round.
+- Sunset scene and compact brand signoff; no manual animation toggle, public email, analytics or fabricated project listings.
 
-The custom-domain file is already in `public/CNAME` for branch-based hosting compatibility; the supplied Actions deployment uses the domain configured in repository Settings → Pages. Vite uses a relative base (`./`), so the same build loads its assets under both `username.github.io/repository/` and the custom domain without configuration changes.
+## Brand files
 
-Official setup references: [custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+The [`brand/`](brand/README.md) folder includes transparent SVG rabbit marks, outlined horizontal wordmarks, an icon and CSS/JSON/GPL/SVG palette exports. See [BRAND.md](docs/BRAND.md) for typography, contrast, usage and voice. `src/style.css` imports the shared palette CSS so the kit and site use the same colors.
 
-No remote repository or DNS records have been created by this project setup. Nothing has been committed or pushed automatically.
+## Deployment
 
-## Content and accessibility
+GitHub Actions builds and deploys `main` to GitHub Pages. Only `dist/` is deployed. The custom domain is configured in repository Settings → Pages; `public/CNAME` also records it. Relative Vite base `./` supports the repository URL and custom domain. DNS/HTTPS settings are managed separately; routine source changes need no DNS edits.
 
-- English copy; no public email, placeholder projects, client claims, analytics or contact form.
-- Native anchor navigation, animated native details panels with botanical motifs, keyboard-visible focus and a skip link.
-- System reduced-motion support applies to scroll scenes, disclosures and the breathing illustration. No stored motion preference or manual motion toggle.
-- The afternoon rabbit offers one optional 10-second round: Start, four seconds in, six out, Stop and replay. A polite text status explains each phase. Native WebGL locally deforms the rabbit mesh while keeping its feet grounded; the whole image is not zoomed. It resets offscreen, when the tab becomes hidden or when the motion preference changes.
-- The rabbit texture has a magenta background, removed by the fragment shader to render transparently on the section. It is not a true-alpha WebP. Reduced motion keeps the rabbit still with timed text guidance; unavailable WebGL uses the rabbit silhouette and the text guide. No new dependency is required.
-- The day closes with a sleeping rabbit at sunset, a return-to-top link and a compact studio signoff.
-- Fonts and artwork are bundled locally. The website does not load runtime analytics or external font scripts.
+`public/` files are copied as-is. Do not put internal notes, source prompts or credentials there. The social preview is at `public/assets/relaxed-rabbit-preview.png`; canonical URL, robots and sitemap use the HTTPS apex. See the [maintenance guide](docs/MAINTENANCE.md) before publishing.
 
-## Editing
-
-Read `PRODUCT.md` and `DESIGN.md` before changing the website. Content lives in `index.html`, styling in `src/style.css`, and scroll motion in `src/main.ts`. The breathing sequence lives in `src/breathing.ts` and its renderer in `src/rabbit-renderer.ts`.
-
-The afternoon scene ships only `assets/plates/rabbit-breath-key.webp`; its neighboring provenance JSON records generation and conversion. Older `breath.webp` variants remain as source references and are not included in the build. Failed true-alpha generation attempts are not shipped.
+Build and manually verify changes; do not create automated test files. Commit/push only with the owner's explicit instruction for the current task.

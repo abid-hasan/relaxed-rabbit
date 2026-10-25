@@ -73,7 +73,7 @@
             /assets/plates/meadow-small.webp 1200w,
             /assets/plates/meadow.webp       2172w
           "
-          sizes="(max-width: 480px) 160vw, (max-width: 800px) 150vw, 100vw"
+          sizes="(max-width: 800px) 1200px, 100vw"
           alt="A happy cream rabbit resting among daisies in a sunlit meadow"
           fetchpriority="high"
           width="2172"
@@ -174,10 +174,6 @@
           <h2 id="pause-title">One slow breath.<br /><em>Together.</em></h2>
           <p>Take a little pause with our rabbit.</p>
           <p id="breath-instruction">Breathe in as the rabbit rises. Breathe out as it settles. One round takes about 10 seconds.</p>
-          <div class="breath-actions">
-            <button class="pill breath-button" id="breath-start" type="button" disabled>Getting ready…</button>
-            <button class="pill breath-button" id="breath-stop" type="button" hidden>Stop breathing exercise</button>
-          </div>
           <noscript><p>Take a slow breath in, then gently breathe out. The guided animation needs JavaScript.</p></noscript>
         </div>
         <div class="breath-world">
@@ -190,6 +186,10 @@
             <p id="breath-detail">A quiet moment is on its way.</p>
           </div>
           <div class="breath-meter" aria-hidden="true"><span></span></div>
+          <div class="breath-actions">
+            <button class="pill breath-button" id="breath-start" type="button" disabled>Getting ready…</button>
+            <button class="pill breath-button" id="breath-stop" type="button" hidden>Stop breathing exercise</button>
+          </div>
         </div>
       </section>
       <footer class="site-footer" aria-labelledby="farewell-title">

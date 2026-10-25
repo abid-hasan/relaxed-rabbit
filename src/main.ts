@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const media = window.matchMedia("(prefers-reduced-motion: reduce)");
 setupBreathing(media);
 let scene: gsap.Context | undefined;
+const compact = window.matchMedia("(max-width: 800px)");
 const paused = () => media.matches;
 
 function configureMotion() {
@@ -24,7 +25,9 @@ function configureMotion() {
         scrub: 1,
       },
     });
-    hero
+    if (compact.matches) {
+      hero.to(".meadow", { yPercent: 3, scale: 1.035, ease: "none" }, 0);
+    } else hero
       .to(".meadow", { yPercent: 11, scale: 1.13, ease: "none" }, 0)
       .to("h1 span:first-child", { y: -90, xPercent: -7, ease: "none" }, 0)
       .to("h1 span:last-child", { y: -45, xPercent: 7, ease: "none" }, 0)
@@ -121,6 +124,7 @@ function configureMotion() {
   ScrollTrigger.refresh();
 }
 media.addEventListener("change", configureMotion);
+compact.addEventListener("change", configureMotion);
 // Preserve native disclosure semantics; animate only while a user changes state.
 const panels = [...document.querySelectorAll<HTMLDetailsElement>(".principles details")];
 const panelAnimations = new Map<HTMLDetailsElement, gsap.core.Tween>();
